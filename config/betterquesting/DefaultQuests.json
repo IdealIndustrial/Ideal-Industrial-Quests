@@ -9,6 +9,7 @@
         5,
         947
       ],
+      "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
           "taskLogic:8": "AND",
