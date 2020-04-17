@@ -1,4 +1,4 @@
-# Ideal-Industrial-Quest-Book
+# Ideal-Industrial-Quests
 ### 1) Инструкция по установке:
 - Скачать и распаковать архив
 - Папки config & mods закинуть в корневую папку игры с заменой.
