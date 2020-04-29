@@ -657,7 +657,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You may transfer your body to asteroids by this flying box. But don\u0027t forget about all required stuff ,that could help you to stay alive."
+          "desc:8": "You may transfer your body to asteroids by this flying box. But don\u0027t forget about all required stuff, that could help you to stay alive."
         }
       },
       "tasks:9": {
@@ -2287,7 +2287,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use the Fusion Reactor at lease 2 tier to make from molnet titanium and duranium the tritanium."
+          "desc:8": "Use the Fusion Reactor at least 2 tier to make from molten titanium and duranium the tritanium."
         }
       },
       "tasks:9": {
@@ -2413,7 +2413,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 40 - 50 PLATINUM vein (Sheldonite, Palladium, Platinum, Iridium). Or you may look to NEI and find another way to get a platinum."
+          "desc:8": "Height to search: 40 - 50 PLATINUM vein (Sheldonite, Palladium, Platinum and Iridium). Or you may look to NEI and find another way to get platinum."
         }
       },
       "tasks:9": {
@@ -3152,7 +3152,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Сheap alternative for Diamond Lens. You may get it from glas pane. Look in NEI."
+          "desc:8": "Cheap alternative for Diamond Lens. You may get it from glass pane. Look in NEI."
         }
       },
       "tasks:9": {
@@ -3436,7 +3436,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The storage weight shows how much data (items) can you keep on it. 1k - is the smallest."
+          "desc:8": "The storage weight shows how much data (items) you can keep on it. 1k - is the smallest."
         }
       },
       "tasks:9": {
@@ -3501,7 +3501,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use assembling macgine (any tier)"
+          "desc:8": "Use assembling machine (any tier)"
         }
       },
       "tasks:9": {
@@ -3693,7 +3693,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This is like flash card - it nay keep your items. Also it is ready to connect with ME chest / ME Drive."
+          "desc:8": "This is like flash card - it may keep your items. Also it is ready to connect with ME chest / ME Drive."
         }
       },
       "tasks:9": {
@@ -3899,7 +3899,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Certus or nether quartz rods + pure fluis crystall + logic processor"
+          "desc:8": "Certus or nether quartz rods + pure fluix crystal + logic processor"
         }
       },
       "tasks:9": {
@@ -4054,7 +4054,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The heart of your network. It may give per 32 channels to each side of it. Also you may extend it by adding few more of this blocks near. Limit is 7 blocks in each direction."
+          "desc:8": "The heart of your network. It may give per 32 channels to each side of it. Also you may extend it by adding several more blocks. Limit is 7 blocks in each direction."
         }
       },
       "tasks:9": {
@@ -4125,7 +4125,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use assembling macgine (any tier)"
+          "desc:8": "Use assembling machine (any tier)"
         }
       },
       "tasks:9": {
@@ -4190,7 +4190,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It show you what recipes are already added to autocraft config."
+          "desc:8": "It shows you which recipes have already been added to autocraft config."
         }
       },
       "tasks:9": {
@@ -4712,7 +4712,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May keep the AE2 energy inside. Usualy used like small buffer between gregtech energy and AE2 energy systems. This energy cell cannot take energy directly from GT cables. So you have to use energy acceptor."
+          "desc:8": "May keep the AE2 energy inside. Usually used like small buffer between gregtech energy and AE2 energy systems. This energy cell cannot take energy directly from GT cables. So you have to use energy acceptor."
         }
       },
       "tasks:9": {
@@ -5041,7 +5041,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Go to hell, bastard! Sorry, i mean, that you just have to go to the nether, to find the blaze, to get blaze rods."
+          "desc:8": "Go to hell, bastard! Sorry, I mean, that you just have to go to the nether, to find the blaze, to get blaze rods."
         }
       },
       "tasks:9": {
@@ -5183,7 +5183,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Compressor can... yeah, compress!) "
+          "desc:8": "Compressor can... yeah, compress! :)"
         }
       },
       "tasks:9": {
@@ -5259,7 +5259,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use cutting machine to split the blok to plates."
+          "desc:8": "Use cutting machine to split the block to plates."
         }
       },
       "tasks:9": {
@@ -5913,7 +5913,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To make a pair of it, prepare any explosives. Than, drop the singularity and 1 enderpearl (not endereye) dust near (not on top) the explosives block, and make the bang."
+          "desc:8": "To make a pair of it, prepare any explosives. Then, drop the singularity and 1 enderpearl (not endereye) dust near (not on top) the explosives block, and make the bang."
         }
       },
       "tasks:9": {
@@ -6371,7 +6371,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use assembling macgine (any tier)"
+          "desc:8": "Use assembling machine (any tier)"
         }
       },
       "tasks:9": {
@@ -6566,7 +6566,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Inscriber Engineering Press with Diamon Plate."
+          "desc:8": "Inscriber Engineering Press with Diamond Plate."
         }
       },
       "tasks:9": {
@@ -6824,7 +6824,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This block is some thing like connector between ME network and outside world. You may input any items to this block, and in case, if it connected to ME chest or drive with storage components, that have enougth free place - that items will store there..."
+          "desc:8": "This block is something like connector between ME network and outside world. You may input any items to this block, and in case, if it connected to ME chest or drive with storage components, that have enough free place - that items will store there..."
         }
       },
       "tasks:9": {
@@ -6888,7 +6888,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Common inretface + any blue dye. This block is some thing like connector between ME network and outside world. But in comparing with common ME interface, it can work with fluids. So you may pour any liquids to this block, and in case, if it connected to ME chest or drive with fluid storage components, that have enougth free place - that liquids will store there..."
+          "desc:8": "Common interface + any blue dye. This block is something like connector between ME network and outside world. But in comparing with common ME interface, it can work with fluids. So you may pour any liquids to this block, and in case, if it connected to ME chest or drive with fluid storage components, that have enough free place - that liquids will store there..."
         }
       },
       "tasks:9": {
@@ -6952,7 +6952,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Charged certus quartz crystal + redstone + nether in mixer with water will git you Fluix Crystal."
+          "desc:8": "Charged certus quartz crystal + redstone + nether in mixer with water will give you Fluix Crystal."
         }
       },
       "tasks:9": {
@@ -7086,7 +7086,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Redstone quests chain. Height for search: 10-40 REDSTONE vein (Redstone, Ruby, Cinnabar). "
+          "desc:8": "Redstone quests chain. Height for search: 10-40 REDSTONE vein (Redstone, Ruby and Cinnabar)."
         }
       },
       "tasks:9": {
@@ -7314,7 +7314,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "copper + redstone (by alloy smelter) to get a red alloy ingot. Then create a plate from it."
+          "desc:8": "Copper + redstone (by alloy smelter) to get a red alloy ingot. Then create a plate from it."
         }
       },
       "tasks:9": {
@@ -7708,7 +7708,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It export selected item(s) to selected chest/machine."
+          "desc:8": "It exports selected item(s) to selected chest/machine."
         }
       },
       "tasks:9": {
@@ -7865,7 +7865,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Via this multiblock machine you will be able to make steel faster. Also you may smelt here other refractory metals. For first run on LV tier use 3 LV energy hatches, and connect to them battery buffer with at less 5 small LV batteries to send 5 ampers (via 8x Tin cable). Or you may use only 2 LV energy hatches with closely connected to each of them battery buffer with at less 2 small LV batteries. Note, that energy losting is high got LV tier, so don\u0027t use long wire connections (in any cases)."
+          "desc:8": "Via this multiblock machine you will be able to make steel faster. Also you may smelt here other refractory metals. For first run on LV tier use 3 LV energy hatches, and connect to them battery buffer with at less 5 small LV batteries to send 5 amperes (via 8x Tin cable). Or you may use only 2 LV energy hatches with closely connected to each of them battery buffer with at less 2 small LV batteries. Note that energy losing is high got LV tier, so don\u0027t use long wire connections (in any cases)."
         }
       },
       "tasks:9": {
@@ -8005,7 +8005,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use metall bender."
+          "desc:8": "Use metal bender."
         }
       },
       "tasks:9": {
@@ -8285,7 +8285,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": " Tungstensteel casing."
+          "desc:8": "Tungstensteel casing."
         }
       },
       "tasks:9": {
@@ -8632,7 +8632,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You have tou use at least the IV energy hatch for assembly line recipes."
+          "desc:8": "You have to use at least the IV energy hatch for assembly line recipes."
         }
       },
       "tasks:9": {
@@ -8987,7 +8987,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use EBF with EV energy hatch to get the osmiridium alloy. It consist of osmium, iridium and helium (as catalizator)."
+          "desc:8": "Use EBF with EV energy hatch to get the osmiridium alloy. It consists of osmium, iridium and helium (as catalyst)."
         }
       },
       "tasks:9": {
@@ -9675,7 +9675,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Require the assembly line which will be used to craft the LuV motor. But before this you have to scan the previous tier motor (IV) by scanner to get the info to data stick, which will be used by assebly line to assemble LuV motor."
+          "desc:8": "Require the assembly line which will be used to craft the LuV motor. But before this you have to scan the previous tier motor (IV) by scanner to get the info to data stick, which will be used by assembly line to assemble LuV motor."
         }
       },
       "tasks:9": {
@@ -10122,7 +10122,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Luv Tier Circuit"
+          "desc:8": "LuV Tier Circuit"
         }
       },
       "tasks:9": {
@@ -10532,7 +10532,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 40 - 80 QUARTZ vein (Quartzite, Barite, Certus Quartz). You may find it in certus quartz ore vien. Also you may get it as subproduct of quartzite and certus quartz ores."
+          "desc:8": "Height to search: 40 - 80 QUARTZ vein (Quartzite, Barite and Certus Quartz). You may find it in certus quartz ore vein. Also you may get it as subproduct of quartzite and certus quartz ores."
         }
       },
       "tasks:9": {
@@ -10594,7 +10594,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You habe to centrifuge the Rare Earth, which you may get as subroduct from next ores: redstone, bastnasite, neodymium, monazite. Height to search: 20-40 MONAZITE vein (Bastnasite, Monazite, Neodymium), 10-40 REDSTONE vein (Redstone, Ruby, Cinnabar). "
+          "desc:8": "You have to centrifuge the Rare Earth, which you may get as subproduct from next ores: redstone, bastnasite, neodymium, monazite. Height to search: 20-40 MONAZITE vein (Bastnasite, Monazite, Neodymium), 10-40 REDSTONE vein (Redstone, Ruby, Cinnabar). "
         }
       },
       "tasks:9": {
@@ -10659,7 +10659,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The patr of advanced diamond drill."
+          "desc:8": "The part of advanced diamond drill."
         }
       },
       "tasks:9": {
@@ -11242,7 +11242,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This cable may use any voltage, but it is limited in maximum ampers as other cables. Use NEI to find and apply one of eight recipes."
+          "desc:8": "This cable may use any voltage, but it is limited in maximum amperes as other cables. Use NEI to find and apply one of eight recipes."
         }
       },
       "tasks:9": {
@@ -11313,7 +11313,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To make tin alloy ingot you should to smelt the iron and tin 1to1 in alloy smelter. Than use bender to make the plate."
+          "desc:8": "To make tin alloy ingot you should to smelt the iron and tin 1to1 in alloy smelter. Then use bender to make the plate."
         }
       },
       "tasks:9": {
@@ -11395,7 +11395,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "\nHeight for search: 10-40 IRON ORE vein (Brown Limonite, Yellow Limonite, Banded Iron, Malachite) or 50-120 MAGNETITE vein (Magnetite, Iron, VanadiumMagnetite) or 10 - 30 COPPER vein (Chalcopyrite, Iron, Pyrite, Copper). Find and smelt Iron/Magnetite/Limonite/Banded Iron ores to get iron ingot. Note, that with 1 level pickaxe (stone or flint) you may dig only Brown Limonite ore. Other ores require at least second level pickaxe to dig them out. So other way to find iron ore is to dig it from small ore block."
+          "desc:8": "Height for search: 10-40 IRON ORE vein (Brown Limonite, Yellow Limonite, Banded Iron, Malachite) or 50-120 MAGNETITE vein (Magnetite, Iron, VanadiumMagnetite) or 10 - 30 COPPER vein (Chalcopyrite, Iron, Pyrite, Copper). Find and smelt Iron/Magnetite/Limonite/Banded Iron ores to get iron ingot. Note, that with 1 level pickaxe (stone or flint) you may dig only Brown Limonite ore. Other ores require at least second level pickaxe to dig them out. So other way to find iron ore is to dig it from small ore block."
         }
       },
       "tasks:9": {
@@ -11536,7 +11536,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 5 - 30 BERYLLIUM vein (Beryllium, Emerald, Thorium). Use common furnace to get ingot. Than use bender to get plate."
+          "desc:8": "Height to search: 5 - 30 BERYLLIUM vein (Beryllium, Emerald, Thorium). Use common furnace to get ingot. Then use bender to get plate."
         }
       },
       "tasks:9": {
@@ -12178,7 +12178,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Scuba set consist of 4 items. You should wear all of them to get the radiation protection. BTW, if you have compressed air cells in your inventory, them will be consumed by turn to give you more time to sweem under water without damage from suffocation."
+          "desc:8": "Scuba set consist of 4 items. You should wear all this set to get the radiation protection. BTW, if you have compressed air cells in your inventory, this set will be consumed by turn to give you more time to swim under water without damage from suffocation."
         }
       },
       "tasks:9": {
@@ -12377,7 +12377,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Like steam analog, but use enegry to work, and works faster"
+          "desc:8": "Like steam analog, but use energy to work, and works faster"
         }
       },
       "tasks:9": {
@@ -12700,7 +12700,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 5 - 30. You may find it in beryllium ore vien. Other way to get it - as subproduct of coal, monazite, uraninite, uranium or pitchblende ores (search in NEI)."
+          "desc:8": "Height to search: 5 - 30. You may find it in beryllium ore vein. Other way to get it - as subproduct of coal, monazite, uraninite, uranium or pitchblende ores (search in NEI)."
         }
       },
       "tasks:9": {
@@ -12840,7 +12840,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The one of two stuffs to synthesys americium."
+          "desc:8": "The one of two stuffs to fusion americium."
         }
       },
       "tasks:9": {
@@ -13146,7 +13146,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search the galena ore (overworld): 30 - 60. Heigth to search the sphalerite ore (nether): 5 - 20. Height to search the phosphorus ore (overworld): 40 - 60."
+          "desc:8": "Height to search the galena ore (overworld): 30 - 60. Height to search the sphalerite ore (nether): 5 - 20. Height to search the phosphorus ore (overworld): 40 - 60."
         }
       },
       "tasks:9": {
@@ -14047,7 +14047,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This multiblock may be used to conveniently using space and allow you to get working power of 16 any GT machines that working in same time. Note that you have to feed it by energy, that should be enough to working for all of using machines. For example, if you put inside 16 LV electrolyzers to get gas products from water, it is require 480 eu/t and HV (or better) energy hatch (30 eu/t * 16 \u003d 480 eu/t)"
+          "desc:8": "This multiblock may be used to conveniently using space and allow you to get working power of 16 any GT machines that working in same time. Note that you have to feed it by energy that should be enough to working for all of using machines. For example, if you put inside 16 LV electrolyzers to get gas products from water, it is require 480 eu/t and HV (or better) energy hatch (30 eu/t * 16 \u003d 480 eu/t)"
         }
       },
       "tasks:9": {
@@ -14261,7 +14261,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "... from ingot by metall bender."
+          "desc:8": "... from ingot by metal bender."
         }
       },
       "tasks:9": {
@@ -14334,7 +14334,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This multiblock may be used to conveniently using space and allow you to get working power of 64 any GT machines that working in same time. Note that you have to feed it by energy, that should be enough to working for all of using machines. For example, if you put inside 64 LV electrolyzers to get gas products from water, it is require 1920 eu/t and EV (or better) energy hatch (30 eu/t * 64 \u003d1920 eu/t)"
+          "desc:8": "This multiblock may be used to conveniently using space and allow you to get working power of 64 any GT machines that working in same time. Note that you have to feed it by energy that should be enough to working for all of using machines. For example, if you put inside 64 LV electrolyzers to get gas products from water, it is require 1920 eu/t and EV (or better) energy hatch (30 eu/t * 64 \u003d1920 eu/t)"
         }
       },
       "tasks:9": {
@@ -15481,7 +15481,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The component used for crafting LV, MV and HV tiers electronic circuits. You can get it when cut the engraved wafer, which can be get by precision laser with help of ruby lens."
+          "desc:8": "The component used for crafting LV, MV and HV tiers electronic circuits. You can get it when cut the engraved wafer, which can be getting by precision laser with help of ruby lens."
         }
       },
       "tasks:9": {
@@ -16405,7 +16405,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "height to search: 60-80 GOLD vein (Magnetite, Vanadium Magnetite, Gold). Find the gold inside the vein of magnetite ore and smelt it to get ingot. Also you may meet it in small gold ore blocks. So \"impure pile of Gold dust\" also fit to smelt it to gold ingot."
+          "desc:8": "Height to search: 60-80 GOLD vein (Magnetite, Vanadium Magnetite, Gold). Find the gold inside the vein of magnetite ore and smelt it to get ingot. Also you may meet it in small gold ore blocks. So \"impure pile of Gold dust\" also fit to smelt it to gold ingot."
         }
       },
       "tasks:9": {
@@ -17008,7 +17008,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Put an aluminium dust to EBF (Electric blast furnace) and wait for a 85 seconds. Dont forget to feed EBF with enough amount of energy during it works (at least 204k of energy per aluminium ingot, excepting energy losts on transferring by wires)."
+          "desc:8": "Put an aluminium dust to EBF (Electric blast furnace) and wait for 85 seconds. Don't forget to feed EBF with enough amount of energy during it works (at least 204k of energy per aluminium ingot, excepting energy loss on transferring by wires)."
         }
       },
       "tasks:9": {
@@ -17561,7 +17561,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Controller for cleanroom multiblock. It is the room to place there precision laser engraver to make high tech items. Min size is 3 by 3 and height 4."
+          "desc:8": "Controller for cleanroom multiblock. This is a room for placing a precision laser engraver there for making high tech items. Min size is 3 by 3 and height is 4."
         }
       },
       "tasks:9": {
@@ -18188,7 +18188,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Warning! you may get it via laser engraver only if it will be placed inside the working cleanroom. The success of result directly depends on cleanroom efficiency. So after cleanroom start working you should wait until it completly filter air inside it."
+          "desc:8": "Warning! You may get it via laser engraver only if it will be placed inside the working cleanroom. The success of result directly depends on cleanroom efficiency. So after cleanroom start working, you should wait until it completely filters out the air inside it."
         }
       },
       "tasks:9": {
@@ -18744,7 +18744,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use nickel, zinc and iron dusts to make this mixture. Than use blast furnace to make ingots. How to get the bolt you can find out with help of NEI."
+          "desc:8": "Use nickel, zinc and iron dusts to make this mixture. Then use blast furnace to make ingots. How to get the bolt you can find out with help of NEI."
         }
       },
       "tasks:9": {
@@ -18832,7 +18832,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height for search is not defined because there are no exist veins of zinc ore. Find the Crushed Zinc Ore. It is one of materials to craft the filter for sifting machine. Also it is the only one source of galliun dust for your current industrial level."
+          "desc:8": "Height for search is not defined, because there are no existing veins of zinc ore. Find the Crushed Zinc Ore. It is one of materials to craft the filter for sifting machine. Also it is the only one source of gallium dust for your current industrial level."
         }
       },
       "tasks:9": {
@@ -18897,7 +18897,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Good HV tier circuit, that may be used to craft next tier circuit."
+          "desc:8": "Good HV tier circuit that may be used to craft next tier circuit."
         }
       },
       "tasks:9": {
@@ -19037,7 +19037,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "...with 9 slots for batteries. Recomended to use only 8 slots and 8x cable to transfer energy from it."
+          "desc:8": "...with 9 slots for batteries. Recommended to use only 8 slots and 8x cable to transfer energy from it."
         }
       },
       "tasks:9": {
@@ -19678,7 +19678,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Miner may do your work instead of you% it can dig a resources (ores). But it require mining pipes. You have to craft 54 of them. (other 10 will be the reward for you). In total 64 mining pipes are enough to dig all ores above bedrock. But quality of work is depends on height where you will place your miner, to give to it ability to dig all ores above bedrock. Fore example it can dig all ores on the sea level with one stack (64 items) of mining pipes inside it. Note, that you may give to miner lower (than 8 eu/t) energy to work and it will by ok (but it may works slower). So, when you craft miner and mining pipes,  you may place your miner anywere. Then just put mining pipes inside it, connect it with energy and enjoy. Btw, it may auto output digged ores."
+          "desc:8": "Miner may do your job for you. It can dig resources (ores). But it requires mining pipes. You have to craft 54 of them. (other 10 will be the reward for you). In total 64 mining pipes are enough to dig all ores above bedrock. But quality of work is depends on height where you will place your miner, to give to its ability to dig all ores above bedrock. For example it can dig all ores on the sea level with one stack (64 items) of mining pipes inside it. Note, that you may give to miner lower (than 8 eu/t) energy to work and it will be ok (but it may works slower). So, when you craft miner and mining pipes, you may place your miner anywhere. Then just put mining pipes inside it, connect it with energy and enjoy. Btw, it may auto output mined ores."
         }
       },
       "tasks:9": {
@@ -20086,7 +20086,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It si time to craft Electic motor {LV). You will find a lot of targets to use it"
+          "desc:8": "It is time to craft Electric motor (LV). You will find a lot of targets to use it"
         }
       },
       "tasks:9": {
@@ -20695,7 +20695,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Craft the file from any metall plates"
+          "desc:8": "Craft the file from any metal plates"
         }
       },
       "tasks:9": {
@@ -21380,7 +21380,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Tin ingot + file \u003d tin rod / tin rod + saw \u003d 2*Tin bolt / 2*Tin bol + file \u003d tin screw. Profit! In fact the profit may be if you craft 8 screws by 1 tin ingot. So use NEI to find the best crafts chain to get this result."
+          "desc:8": "Tin ingot + file \u003d tin rod / tin rod + saw \u003d 2*Tin bolt / 2*Tin bolt + file \u003d tin screw. Profit! In fact the profit may be if you craft 8 screws by 1 tin ingot. So use NEI to find the best crafts chain to get this result."
         }
       },
       "tasks:9": {
@@ -21750,7 +21750,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "For a first prepare next tools: screwdriver, wrench, wire cutter, hammer, crowbar, file, saw, soft mallet. Than place them on crafting table around LV machine hull."
+          "desc:8": "For a first prepare next tools: screwdriver, wrench, wire cutter, hammer, crowbar, file, saw and soft mallet. Then place them on crafting table around LV machine hull."
         }
       },
       "tasks:9": {
@@ -22326,7 +22326,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height for search: 30-60 GALENA vein (Galena, Silver, Lead). Find lead ore and smelt it to get lead ingot. But there are not only one way to get Lead. It is not necessary to dig galena ore with hope to find there lead ore. Also you may just smelt \"Impure Pile Of Lead dust\" to get lead ingot."
+          "desc:8": "Height for search: 30-60 GALENA vein (Galena, Silver, Lead). Find lead ore and smelt it to get lead ingot. But there are not only one way to get Lead. It is not necessary to dig galena ore with the hope of finding lead ore there. Also you may just smelt \"Impure Pile Of Lead dust\" to get lead ingot."
         }
       },
       "tasks:9": {
@@ -22607,7 +22607,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height for search: 50-60 SALTS vein (Rock Salt, Salt, Lepidolite, Spodumene). These are raw source of Sodium and Lithium. To get 2 lithium dusts you have to macerate 9 lepidolite ores and process them by washing plant. It will give you tiny lithium dusts as sub product. Salt needs to get sodium, use electrolyzer. Also to get a lithium dust you may process a spodumene ore. In this case to get a lithium as subproduct you have to crush it, purify, crush again and send to centrifuge."
+          "desc:8": "Height for search: 50-60 SALTS vein (Rock Salt, Salt, Lepidolite, Spodumene). These are raw source of Sodium and Lithium. To get 2 lithium dusts you have to macerate 9 lepidolite ores and process them by washing plant. It will give you tiny lithium dusts as sub product. Salt needs to get sodium, use electrolyzer. Also to get lithium dust you may process a spodumene ore. In this case to get a lithium as subproduct you have to crush it, purify, crush again and send to centrifuge."
         }
       },
       "tasks:9": {
@@ -22684,7 +22684,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Craft 4 blocks and build them as square. Then pour there 2 buckets of water. Cool! Now it is infinity source of water. Also you may do Right Click on it with wrench in you hand to auto output the water to near pipes."
+          "desc:8": "Craft 4 blocks and build them as square. Then pour there 2 buckets of water. Cool! Now it is infinity source of water. Also you may do Right Click on it with wrench in your hand to auto output the water to near pipes."
         }
       },
       "tasks:9": {
@@ -22818,7 +22818,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 40 - 80 QUARTZ vein (Quartzite, Barite, Certus Quartz). You have to look for quartzite ore. Or you may find quartzite stone, and macerate it to get impure quartzite dust. Then you have just wash it to get common quartzite dust."
+          "desc:8": "Height to search: 40 - 80 QUARTZ vein (Quartzite, Barite, Certus Quartz). You have to look for quartzite ore. Or you may find quartzite stone, and macerate it to get impure quartzite dust. Then you need to wash it out to get common quartzite dust."
         }
       },
       "tasks:9": {
@@ -22889,7 +22889,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This machine can be used to get alloys like bronze with more profitably. Moreover you dont need to use only dusts, you can create bronze from tin and copper ingots."
+          "desc:8": "This machine can be used to get alloys like bronze with more profitably. Moreover you don't need to use only dusts, you can create bronze from tin and copper ingots."
         }
       },
       "tasks:9": {
@@ -23036,7 +23036,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Craft the wire cutter by use any metall"
+          "desc:8": "Craft the wire cutter by use any metal"
         }
       },
       "tasks:9": {
@@ -23112,7 +23112,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Recipe is the same as for other pipes, but the different is in plates material - use titanium."
+          "desc:8": "Recipe is the same as for other pipes, but the difference is in the material of the plates - using titanium."
         }
       },
       "tasks:9": {
@@ -23176,7 +23176,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Same recipe as for other screws. "
+          "desc:8": "Same recipe as for other screws."
         }
       },
       "tasks:9": {
@@ -24370,7 +24370,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Pupm the air to centrifuge by fluid canner machine from compressed air cell. This is the way to get nitrogen gas."
+          "desc:8": "Pump the air to centrifuge by fluid canner machine from compressed air cell. This is the way to get nitrogen gas."
         }
       },
       "tasks:9": {
@@ -24507,7 +24507,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now you shuld have all machines to create it. The way is: cobblestone to hammer -\u003e gravel to hammer again -\u003e sand to furnace -\u003e glass to forge hammer (or macerator) -\u003e glass dust to centrifuge -\u003e silicon doixide to electrolyzer. Sub product for last step is oxygen, dont get rid of it, it is useful gas."
+          "desc:8": "Now you should have all machines to create it. The way is: cobblestone to hammer -\u003e gravel to hammer again -\u003e sand to furnace -\u003e glass to forge hammer (or macerator) -\u003e glass dust to centrifuge -\u003e silicon dioxide to electrolyzer. Sub product for last step is oxygen, don't get rid of it, it is useful gas."
         }
       },
       "tasks:9": {
@@ -24577,7 +24577,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "...from NAND wafer by catting saw."
+          "desc:8": "...from NAND wafer by cutting saw."
         }
       },
       "tasks:9": {
@@ -24645,7 +24645,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Best HV tier circuit. "
+          "desc:8": "Best HV tier circuit."
         }
       },
       "tasks:9": {
@@ -24781,7 +24781,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "...from NanoCPU wafer by catting saw."
+          "desc:8": "...from NanoCPU wafer by cutting saw."
         }
       },
       "tasks:9": {
@@ -25669,7 +25669,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "...from NOR wafer by catting saw."
+          "desc:8": "...from NOR wafer by cutting saw."
         }
       },
       "tasks:9": {
@@ -26011,7 +26011,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Obsidian is a solidified lava. You may create it by pour water from bucket to lava lake. But to dig it you should have 3 tier pickaxe, like diamond. What is it need for? If you play in minecraft at first time, you should know, that this is only one way to build portal to nether. Just build obsidian frame with width 4 and height 5. Than use matches or flint and steel nugget to make fire inside the frame to open portal."
+          "desc:8": "Obsidian is solidified lava. You may create it by pour water from bucket to lava lake. But to dig it you should have pickaxe tier 3, like diamond. What is it needed for? If you play in minecraft at first time, you should know, that this is only one way to build portal to nether. Just build obsidian frame with width 4 and height 5. Then use matches or flint and steel nugget to make fire inside the frame to open portal."
         }
       },
       "tasks:9": {
