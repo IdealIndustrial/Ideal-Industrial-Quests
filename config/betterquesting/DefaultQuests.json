@@ -20420,7 +20420,7 @@
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "name:8": "Shears or Steel Shears",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
