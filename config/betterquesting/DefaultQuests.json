@@ -2473,7 +2473,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Osmuim Rod",
+          "name:8": "Osmium Rod",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -13443,7 +13443,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 10-40 NICKEL vein (Garnierite, Nickel, Cobaltite, Pentlandite). You may create a cobalt pickaxe, that may dig even diamond blocks. To make a cobalt ingol from cobaltite dust you may put it to your primitive blast furnace with coal or charcoal. Or directly put cobaltite ore to common furnace (but with lower efficient). In second way you will get 1 ingot per ore block instead of 2 ingots per block ore in case of using macerator and primitive blast furnace."
+          "desc:8": "Height to search: 10-40 NICKEL vein (Garnierite, Nickel, Cobaltite, Pentlandite). You may create a cobalt pickaxe, that may dig even diamond blocks. To make a cobalt ingot from cobaltite dust you may put it to your primitive blast furnace with coal or charcoal. Or directly put cobaltite ore to common furnace (but with lower efficient). In second way you will get 1 ingot per ore block instead of 2 ingots per block ore in case of using macerator and primitive blast furnace."
         }
       },
       "tasks:9": {
@@ -13711,7 +13711,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Advanced Chemical Reacotr III",
+          "name:8": "Advanced Chemical Reactor III",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -20185,7 +20185,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Electic Motor (LV)",
+          "name:8": "Electric Motor (LV)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -21564,7 +21564,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "If you choose to make a buffer with 9 slots for batteries, it is important to place there only 8 or less and use 8x tin cable to prevent fire. But you may craft a batter buffer with one of: 4, 9, 16 slots. Note that each batteryinside it adding 1 amper."
+          "desc:8": "If you choose to make a buffer with 9 slots for batteries, it is important to place there only 8 or less and use 8x tin cable to prevent fire. But you may craft a batter buffer with one of: 4, 9, 16 slots. Note that each battery inside it adding 1 amper."
         }
       },
       "tasks:9": {
@@ -27219,7 +27219,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use the chemical reactor to make the glycerol from sudium hydroxide + seed oil + methanol."
+          "desc:8": "Use the chemical reactor to make the glycerol from sodium hydroxide + seed oil + methanol."
         }
       },
       "tasks:9": {
@@ -32758,7 +32758,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Craft at least one chest and one door. Build any... even any box, but with door to protect yourself againts night monsters. So the reward of this quest is the copy of book. Put the copy into your chest in your home, and never take it with you. To prevent it losting. At least until you dont have all resources to make a new one copy."
+          "desc:8": "Craft at least one chest and one door. Build any... even any box, but with door to protect yourself againts night monsters. So the reward of this quest is the copy of book. Put the copy into your chest in your home, and never take it with you. To prevent it losting. At least until you don't have all resources to make a new one copy."
         }
       },
       "tasks:9": {
@@ -34008,7 +34008,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "This cable can use voltage 128 eu/t. And this is the base for MV tier. To craft it you should smelt rubber via fluid extractor and pour it to assembler. Than add to assembler copper wire and programmed circuit with configuration 24. Use NIE to find recipe."
+          "desc:8": "This cable can use voltage 128 eu/t. And this is the base for MV tier. To craft it you should smelt rubber via fluid extractor and pour it to assembler. Than add to assembler copper wire and programmed circuit with configuration 24. Use NEI to find recipe."
         }
       },
       "tasks:9": {
@@ -34717,7 +34717,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Basic Circuit Assembling Machin",
+          "name:8": "Basic Circuit Assembling Machine",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -35378,7 +35378,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Pipes for single block miners, ore drilling plants, and oil drilling rigs. The the most profiable way to craft it - by tiny steel fluid pipes via wiremill. So you may to wait until you have got the MV tier extruder."
+          "desc:8": "Pipes for single block miners, ore drilling plants, and oil drilling rigs. The most profiable way to craft it - by tiny steel fluid pipes via wiremill. So you may to wait until you have got the MV tier extruder."
         }
       },
       "tasks:9": {
@@ -36580,7 +36580,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Vinyl chloride + oxigen to get polyvinyl chloride - then just solidify it to be plate with help of plate mold."
+          "desc:8": "Vinyl chloride + oxygen to get polyvinyl chloride - then just solidify it to be plate with help of plate mold."
         }
       },
       "tasks:9": {
@@ -37021,7 +37021,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It have both advantages and lacks in comparison with common single block chemical reactor. It is much more expensive, but it can do more recipes and dont consume more energy if you connect higher voltage. So you may greatly grow processes speed without any negative effects."
+          "desc:8": "It have both advantages and lacks in comparison with common single block chemical reactor. It is much more expensive, but it can do more recipes and don't consume more energy if you connect higher voltage. So you may greatly grow processes speed without any negative effects."
         }
       },
       "tasks:9": {
@@ -39563,7 +39563,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use molter neodymium and hydrogen to synthesise the molten europium by fusion reactor."
+          "desc:8": "Use molten neodymium and hydrogen to synthesise the molten europium by fusion reactor."
         }
       },
       "tasks:9": {
@@ -40940,11 +40940,11 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Engaved Lapotron Chip",
+          "name:8": "Engraved Lapotron Chip",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use the precision laser with any blue lens to create the engaved lapotron chip from lapotron crystal."
+          "desc:8": "Use the precision laser with any blue lens to create the engraved lapotron chip from lapotron crystal."
         }
       },
       "tasks:9": {
@@ -41016,7 +41016,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Prepare diamon dust, and put it to autoclave. Also pour to autoclave the molten pulsating iron."
+          "desc:8": "Prepare diamond dust, and put it to autoclave. Also pour to autoclave the molten pulsating iron."
         }
       },
       "tasks:9": {
@@ -43774,7 +43774,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Just go the the nether and find the nether fortress. There you have to find the \"Skeleton\" - it looks like nig... hmmm... black, and with sword instead of bow. You shouldn\u0027t to kill him or even hit him. You target is use the empty Soul Vial on him by RMB to catch him."
+          "desc:8": "Just go the nether and find the nether fortress. There you have to find the \"Skeleton\" - it looks like nig... hmmm... black, and with sword instead of bow. You shouldn\u0027t to kill him or even hit him. You target is use the empty Soul Vial on him by RMB to catch him."
         }
       },
       "tasks:9": {
@@ -44770,7 +44770,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use Nasa Workbench to ctraft the rocket. Dont foget to put 3 chests (to workbench) as storage for resources and items. also you have to craft and build the launch pad as quad 3 by 3 (9 in total) And finaly - craft the parachute, to safe fall down."
+          "desc:8": "Use Nasa Workbench to craft the rocket. Don't forget to put 3 chests (to workbench) as storage for resources and items. also you have to craft and build the launch pad as quad 3 by 3 (9 in total) And finaly - craft the parachute, to safe fall down."
         }
       },
       "tasks:9": {
@@ -45003,7 +45003,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created from tungstem rod"
+          "desc:8": "May be created from tungsten rod"
         }
       },
       "tasks:9": {
@@ -45143,7 +45143,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Radom + molten galium by fusion -\u003e\u003e duranium"
+          "desc:8": "Radon + molten galium by fusion -\u003e\u003e duranium"
         }
       },
       "tasks:9": {
@@ -45630,7 +45630,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The basic wafer you may craft from diamon plate and coated circuit board, with help of molten soldering alloy by assembler. Other items should be more easy in crafting. Tin canister you may create by bending machine or extruder from compressed tin."
+          "desc:8": "The basic wafer you may craft from diamond plate and coated circuit board, with help of molten soldering alloy by assembler. Other items should be more easy in crafting. Tin canister you may create by bending machine or extruder from compressed tin."
         }
       },
       "tasks:9": {
@@ -45724,7 +45724,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use double wires from naquadah ingots.Then by wrench and 8 double wires make the coil block. Create 16 coil blocks in total."
+          "desc:8": "Use double wires from naquadah ingots. Then by wrench and 8 double wires make the coil block. Create 16 coil blocks in total."
         }
       },
       "tasks:9": {
@@ -47458,7 +47458,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Electic Piston (LuV)",
+          "name:8": "Electric Piston (LuV)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -47606,7 +47606,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You have to schreder the five tungstensteel ingots to make the 5 tungstensteel dusts then mix them with 2 molybrenum dusts, vanadium dust and chrome dust. This will give you a new dust that you mey smelt by EBF to get new alloy named HSS-G,"
+          "desc:8": "You have to schreder the five tungstensteel ingots to make the 5 tungstensteel dusts then mix them with 2 molybdenum dusts, vanadium dust and chrome dust. This will give you a new dust that you mey smelt by EBF to get new alloy named HSS-G,"
         }
       },
       "tasks:9": {
@@ -48806,7 +48806,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use disassembler to get it from egs with a very low chance."
+          "desc:8": "Use disassembler to get it from eggs with a very low chance."
         }
       },
       "tasks:9": {
@@ -49903,7 +49903,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now you have simple tools to cross breed plants and analysis it params to select some of them with better params. It is recommended to start working with sugar canes to up it characteristics and to get rubber canes from it. Sure, it is posible to work with plants crossbreeding by these simple tools, but it is strongly recomend to craft and use a portable scanner to achive this goal."
+          "desc:8": "Now you have simple tools to cross breed plants and analysis it params to select some of them with better params. It is recommended to start working with sugar canes to up it characteristics and to get rubber canes from it. Sure, it is posible to work with plants crossbreeding by these simple tools, but it is strongly recomend to craft and use a portable scanner to achieve this goal."
         }
       },
       "tasks:9": {
@@ -50689,7 +50689,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Early tier chemical stuff that may be used to craft the nitric acid. Currently, you have olny one way to get this liquid - by using the distillery machine. Later you may create it from hydrogen and nitrogen by HV+ chemical reactor."
+          "desc:8": "Early tier chemical stuff that may be used to craft the nitric acid. Currently, you have only one way to get this liquid - by using the distillery machine. Later you may create it from hydrogen and nitrogen by HV+ chemical reactor."
         }
       },
       "tasks:9": {
@@ -50891,7 +50891,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Ammonia + oxygen (to chamical reactor)"
+          "desc:8": "Ammonia + oxygen (to chemical reactor)"
         }
       },
       "tasks:9": {
@@ -51812,7 +51812,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now it\u0027s time to craft the polarizer if you dont did it early yet. This machine allow you to polarize iron rods to craft LV motors without using redstone to polarize rods handly. Also this is the only one way to polarize steel rods."
+          "desc:8": "Now it\u0027s time to craft the polarizer if you don't did it early yet. This machine allow you to polarize iron rods to craft LV motors without using redstone to polarize rods handly. Also this is the only one way to polarize steel rods."
         }
       },
       "tasks:9": {
@@ -52294,7 +52294,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The machine without tier, so you may connect it to energy with any voltage. To craft some thing via this machine, you sould mark the items of recipe on the crafting board, then put them to carpenter\u0027s inventory. Crafting will start automatically, if it has enough energy."
+          "desc:8": "The machine without tier, so you may connect it to energy with any voltage. To craft some thing via this machine, you should mark the items of recipe on the crafting board, then put them to carpenter\u0027s inventory. Crafting will start automatically, if it has enough energy."
         }
       },
       "tasks:9": {
@@ -54210,7 +54210,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You may get it via centrifuge by redstone or bu cinnabar."
+          "desc:8": "You may get it via centrifuge by redstone or by cinnabar."
         }
       },
       "tasks:9": {
@@ -55592,7 +55592,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": " Oxygen concentrator + 2 * LV electric pupms + 5 * oxygen pipes. You may wear it."
+          "desc:8": " Oxygen concentrator + 2 * LV electric pumps + 5 * oxygen pipes. You may wear it."
         }
       },
       "tasks:9": {
@@ -56501,7 +56501,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Put two iron plates to implosion compressor to get the 1 compressed irom."
+          "desc:8": "Put two iron plates to implosion compressor to get the 1 compressed iron."
         }
       },
       "tasks:9": {
@@ -57489,7 +57489,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Better than common chest. But only if you know how to use it. For it work it needs 2 conditions: it should be connetced to power (energy acceptor is not required). And a second - it should have the ME storage cell inside it."
+          "desc:8": "Better than common chest. But only if you know how to use it. For it work it needs 2 conditions: it should be connected to power (energy acceptor is not required). And a second - it should have the ME storage cell inside it."
         }
       },
       "tasks:9": {
@@ -59200,7 +59200,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use Chrome Ingot and Nickel Ingot to make new alloy - the nichome. The EBF will help you with it."
+          "desc:8": "Use Chrome Ingot and Nickel Ingot to make new alloy - the nichrome. The EBF will help you with it."
         }
       },
       "tasks:9": {
@@ -59969,7 +59969,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Polyphenylene Suflide Foil + molter silicone rubber (small pile by fluid extractor MV tier or better) + small pile of Polyvinyl Chloride Pulp. Use assembling machine for crafting any 8192 eu/t cable from 8192 eu/t wire."
+          "desc:8": "Polyphenylene Suflide Foil + molten silicone rubber (small pile by fluid extractor MV tier or better) + small pile of Polyvinyl Chloride Pulp. Use assembling machine for crafting any 8192 eu/t cable from 8192 eu/t wire."
         }
       },
       "tasks:9": {
@@ -61762,7 +61762,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created by assembli line. Require the IV+ energy hatch."
+          "desc:8": "May be created by assembly line. Require the IV+ energy hatch."
         }
       },
       "tasks:9": {
@@ -61988,7 +61988,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created by assembli line. Require the IV+ energy hatch."
+          "desc:8": "May be created by assembly line. Require the IV+ energy hatch."
         }
       },
       "tasks:9": {
@@ -62138,7 +62138,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created by assembli line. Require the IV+ energy hatch."
+          "desc:8": "May be created by assembly line. Require the IV+ energy hatch."
         }
       },
       "tasks:9": {
@@ -62287,7 +62287,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created by assembli line. Require the IV+ energy hatch."
+          "desc:8": "May be created by assembly line. Require the IV+ energy hatch."
         }
       },
       "tasks:9": {
@@ -63394,7 +63394,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The controller of stargate. How to use: place this block it 5 blocks radius of stargate base. In case if you place it correctly and the stargate multiblock was correctly built - the button in the center of DHD should be oragne, otherwise it will be black. Then, after build a pair of stargates, make the RMB on one of them. In the opened window you will see the code - you have to remember or write it. This is the address of this gate. So now you may enter this code on other DHD to open the portal to this stargate. But don\u0027t foget about energy."
+          "desc:8": "The controller of stargate. How to use: place this block it 5 blocks radius of stargate base. In case if you place it correctly and the stargate multiblock was correctly built - the button in the center of DHD should be oragne, otherwise it will be black. Then, after build a pair of stargates, make the RMB on one of them. In the opened window you will see the code - you have to remember or write it. This is the address of this gate. So now you may enter this code on other DHD to open the portal to this stargate. But don\u0027t forget about energy."
         }
       },
       "tasks:9": {
@@ -63940,7 +63940,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Mercury (or Helium) cell + tin ingot + iton iingot + glass blocks (by crafting table)"
+          "desc:8": "Mercury (or Helium) cell + tin ingot + iron ingot + glass blocks (by crafting table)"
         }
       },
       "tasks:9": {
@@ -64775,7 +64775,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Penguinman - like spiderman, but can fly without web shooting. So, you cannot be a penguinman, but you will get ability to fly with this device. It PRO version of electic jetpak."
+          "desc:8": "Penguinman - like spiderman, but can fly without web shooting. So, you cannot be a penguinman, but you will get ability to fly with this device. It PRO version of electric jetpak."
         }
       },
       "tasks:9": {
@@ -66605,7 +66605,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Large engine that may use liquid fuels to produce energy. Require lubricant to work. You may boost it by oxygen, but in this case it will produce 6144 eu/t (IV dymano hatch required)"
+          "desc:8": "Large engine that may use liquid fuels to produce energy. Require lubricant to work. You may boost it by oxygen, but in this case it will produce 6144 eu/t (IV dynamo hatch required)"
         }
       },
       "tasks:9": {
@@ -66728,7 +66728,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It may be used as source of energy for multiblock generators. It may output up to 8192 ue/t without blowing up."
+          "desc:8": "It may be used as source of energy for multiblock generators. It may output up to 8192 eu/t without blowing up."
         }
       },
       "tasks:9": {
@@ -68618,7 +68618,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Advanced versioun of commo energy cell"
+          "desc:8": "Advanced energy cell"
         }
       },
       "tasks:9": {
@@ -71071,7 +71071,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created from gold wire and molter rubber by basic assembler."
+          "desc:8": "May be created from gold wire and molten rubber by basic assembler."
         }
       },
       "tasks:9": {
@@ -71826,7 +71826,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 40 - 60 - APATITE vein (Apatite, Phosphorus, Pyrochlore), 20 - 30 MANGANESE vein (Grossular, Spessartine, Pyrolusite,Tantalite). You may get a niubium dust as subproduct of Pyrochlore, Pyrolusite andTantalite."
+          "desc:8": "Height to search: 40 - 60 - APATITE vein (Apatite, Phosphorus, Pyrochlore), 20 - 30 MANGANESE vein (Grossular, Spessartine, Pyrolusite,Tantalite). You may get a niobium dust as subproduct of Pyrochlore, Pyrolusite and Tantalite."
         }
       },
       "tasks:9": {
@@ -73190,7 +73190,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use EBF to smelt it to ingol."
+          "desc:8": "Use EBF to smelt it to ingot."
         }
       },
       "tasks:9": {
@@ -74165,7 +74165,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Better then previuos (working faster)"
+          "desc:8": "Better then previous (it works faster)"
         }
       },
       "tasks:9": {
@@ -78088,7 +78088,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It may be used as a frame of space that you want to \"cut\" from real world to place it to another place. Minimum pillars required - 2 (that placed by opposite corners). But for most efficient (by energy) usage it is recommended to use 4 , placed by conners of space that you want to cut. Pillars height should by +1 blocks of top and bottom of space to transport. Also you require to coonect all pillars together by any ME cable and you should use lever or button or other redstone signal source on use spatial OI port (with spatial storage cell inside) to make spatial cutting or to it placing."
+          "desc:8": "It may be used as a frame of space that you want to \"cut\" from real world to place it to another place. Minimum pillars required - 2 (that placed by opposite corners). But for most efficient (by energy) usage it is recommended to use 4 , placed by conners of space that you want to cut. Pillars height should by +1 blocks of top and bottom of space to transport. Also you require to connect all pillars together by any ME cable and you should use lever or button or other redstone signal source on use spatial OI port (with spatial storage cell inside) to make spatial cutting or to it placing."
         }
       },
       "tasks:9": {
