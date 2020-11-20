@@ -18910,7 +18910,8 @@
     "268:10": {
       "questID:3": 268,
       "preRequisites:11": [
-        269
+        1704,
+        1705
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18929,7 +18930,7 @@
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "name:8": "Small Coil",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
@@ -27540,7 +27541,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Hurrah!!! Now you can get double resources from ore blocks. And you can create wood pulp from wood.. Why? - to compress it to get wood planks"
+          "desc:8": "Hurrah!!! Now you can get double resources from ore blocks. And you can create §2wood pulp§r  from wood.. Why? - to compress it, to get §2wood planks§r. Note that this machine may to shredder §canything§r (or almost anything). That is why it\u0027s recipes in §6NEI§r are §chidden§r."
         }
       },
       "tasks:9": {
@@ -32327,7 +32328,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You have to craft 32 of them, but one note, that it crafts by 2 items per one crafting operation, so you need to do it only 16 times."
+          "desc:8": "You have to craft 32 of them."
         }
       },
       "tasks:9": {
@@ -32407,7 +32408,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You have to craft §a32§f of them, but one note, that it crafts by 2 items per one crafting operation, so you need to do it only 16 times. Also this blocks may be used to build a §6Large Bronze Boiler§f - it require at least §a24§f blocks."
+          "desc:8": "You have to craft §a32§r of them, but one note, that it crafts by 2 items per one crafting operation, so you need to do it only 16 times. Also this blocks may be used to build a §6Large Bronze Boiler§r - it require at least §a24§r blocks."
         }
       },
       "tasks:9": {
@@ -32484,7 +32485,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "To get it - just compress charcoal in compressor 9 to 1. Then it will have burn time like 10 charcoals, so it is more profitable."
+          "desc:8": "To get it - just compress charcoal in compressor 9 to 1. Then it will have burn time like 10 charcoals, so it is more profitable. Also you may use it as a fuel for blast furnace to make 5 steel ingots with help of 2 charcoal blocks. But you cannot burn it in small coal boiler. Only large bronze boiler can accept it as a fuel."
         }
       },
       "tasks:9": {
@@ -35162,8 +35163,8 @@
     "498:10": {
       "questID:3": 498,
       "preRequisites:11": [
-        483,
-        499
+        499,
+        1700
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45421,7 +45422,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created from tungsten rod"
+          "desc:8": "May be created from tungsten rod by saw or cutting machine, or by extruder directly from ingots."
         }
       },
       "tasks:9": {
@@ -55188,7 +55189,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "May be created from Stainless Steel rod."
+          "desc:8": "May be created from Stainless Steel rod by saw or cutting machine, or by extruder directly from ingots."
         }
       },
       "tasks:9": {
@@ -75498,7 +75499,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "§dImportant info: §fStarting from this quests set you may meet quests, that require to make (craft) liquids. And now you have at least one of two ways to complete that quests."
+          "desc:8": "§dImportant info:§r Starting from this quests set you may meet quests, that require to make (to craft) liquids. And now you have at least one of two ways to complete that quests."
         }
       },
       "tasks:9": {
@@ -81866,7 +81867,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now you have to choose what blast furnace you will craft and build. You don\u0027t need to craft them both to get steel. Note, that §6Bronze Blast Furnace§f you may craft early than §cbricked§f (if you have hammer already). §cBricked Blast Furnace§f require §ecompressor and forge hammer§f to be crafted. But it is §astrongly recommended§f to use steam machines to make any type of blast furnace to spend you resources with §amore efficient§f."
+          "desc:8": "Now you have to choose what blast furnace you will craft and build. You §cdon\u0027t need to craft them both §rto get a steel. Note, that §6Bronze Blast Furnace §ryou may craft early than §dbricked §r(if you have hammer already). §dBricked Blast Furnace §rrequire §9a compressor and a forge hammer §rto be crafted. But it is §astrongly recommended §rto use steam machines to make any type of blast furnace to spend you resources with more efficient."
         }
       },
       "tasks:9": {
@@ -84930,11 +84931,29 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": ""
+          "desc:8": "A stick is a base part of most tools. Use a crafting table to make different tools as a pickaxe, shovel, axe, sword and other that you want. To make a stone Pickaxe you have to craft a flint pickaxe or a wooden pickeaxe to get some coblestone for a first."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "1233:10": {
       "questID:3": 1233,
@@ -110211,6 +110230,592 @@
           }
         }
       }
+    },
+    "1700:10": {
+      "questID:3": 1700,
+      "preRequisites:11": [
+        373,
+        483
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:obsidian",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "name:8": "Obsidian or Assembling Machine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "If you have an  Assembling Machine you may create a coal chunk from bricks block and compressed coal balls."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1701:10": {
+      "questID:3": 1701,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "1702:10": {
+      "questID:3": 1702,
+      "preRequisites:11": [
+        269,
+        114
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 11613,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Nickel-Zink Ferrite Ingot",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Use an EBF (electric blast furnace) to make it from Ferrite Mixture Dust."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 11613,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1703:10": {
+      "questID:3": 1703,
+      "preRequisites:11": [
+        1702
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 23613,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Nickel-Zink Ferrite Rod",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Make it from an ingot."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 23613,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1704:10": {
+      "questID:3": 1704,
+      "preRequisites:11": [
+        1194
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 26305,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Steel Bolt",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You may make it from steel rod by saw of from ingot by extruder."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 26305,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1705:10": {
+      "questID:3": 1705,
+      "preRequisites:11": [
+        1703,
+        1709
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 26613,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "name:8": "Nickel-Zink Ferrite Bolt",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Make it from a rod. Or you may craft it directly from an ingot by extruder with help of shape for bolts."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 26613,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1706:10": {
+      "questID:3": 1706,
+      "preRequisites:11": [
+        1652
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 32352,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Extruder Shape (Bolt)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You may use it to make bolts by extruder directly from ingots."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 32352,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1707:10": {
+      "questID:3": 1707,
+      "preRequisites:11": [
+        1652
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 32351,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Extruder Shape (Rod)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "It will allow you to make make 2 rods from 1 ingot with help of MV extruder. Some metals require HV tier extruder."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 32351,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1708:10": {
+      "questID:3": 1708,
+      "preRequisites:11": [
+        1652
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 32360,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Extruder Shape (Normal size Pipe)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "It will allow you to make make a pipe from 3 ingot with help of MV extruder. Some metals require HV tier extruder."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 32360,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1709:10": {
+      "questID:3": 1709,
+      "preRequisites:11": [
+        1702,
+        730,
+        1706
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 32352,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "NZF bolt from ingot by extruder",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "NZF \u003d Nickel-Zink Ferrite. To make it you have to use MV extruder with shape for bolts."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -115797,7 +116402,7 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 96,
           "y:3": 144,
           "id:3": 186,
           "sizeY:3": 24
@@ -115818,7 +116423,7 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 24,
           "y:3": 180,
           "id:3": 235,
           "sizeY:3": 24
@@ -115839,22 +116444,22 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 108,
+          "x:3": 312,
+          "y:3": 72,
           "id:3": 298,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 180,
+          "x:3": 384,
+          "y:3": 72,
           "id:3": 299,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": 312,
-          "y:3": 72,
+          "y:3": 36,
           "id:3": 300,
           "sizeY:3": 24
         },
@@ -115867,22 +116472,22 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 336,
+          "x:3": 384,
           "y:3": 216,
           "id:3": 302,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 264,
           "y:3": 72,
           "id:3": 303,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 180,
+          "x:3": 348,
+          "y:3": 192,
           "id:3": 304,
           "sizeY:3": 24
         },
@@ -115993,21 +116598,21 @@
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 168,
           "y:3": 180,
           "id:3": 474,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 132,
           "y:3": 216,
           "id:3": 475,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 132,
           "y:3": 180,
           "id:3": 476,
           "sizeY:3": 24
@@ -116022,14 +116627,14 @@
         "34:10": {
           "sizeX:3": 24,
           "x:3": 132,
-          "y:3": 180,
+          "y:3": 144,
           "id:3": 478,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 144,
+          "x:3": 60,
+          "y:3": 180,
           "id:3": 479,
           "sizeY:3": 24
         },
@@ -116042,86 +116647,100 @@
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 240,
           "y:3": 180,
           "id:3": 487,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
+          "x:3": 276,
+          "y:3": 180,
+          "id:3": 504,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
           "x:3": 24,
           "y:3": 144,
           "id:3": 547,
           "sizeY:3": 24
         },
-        "39:10": {
+        "40:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 384,
           "y:3": 36,
           "id:3": 738,
           "sizeY:3": 24
         },
-        "40:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 144,
           "id:3": 966,
           "sizeY:3": 24
         },
-        "41:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 276,
           "y:3": 108,
           "id:3": 977,
           "sizeY:3": 24
         },
-        "42:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 240,
           "y:3": 144,
           "id:3": 978,
           "sizeY:3": 24
         },
-        "43:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 72,
           "id:3": 1023,
           "sizeY:3": 24
         },
-        "44:10": {
+        "45:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 204,
           "y:3": 180,
           "id:3": 1051,
           "sizeY:3": 24
         },
-        "45:10": {
+        "46:10": {
           "sizeX:3": 24,
-          "x:3": 372,
+          "x:3": 348,
           "y:3": 72,
           "id:3": 1084,
           "sizeY:3": 24
         },
-        "46:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 36,
           "id:3": 1141,
           "sizeY:3": 24
         },
-        "47:10": {
+        "48:10": {
           "sizeX:3": 24,
-          "x:3": 372,
-          "y:3": 216,
+          "x:3": 360,
+          "y:3": 108,
           "id:3": 1194,
           "sizeY:3": 24
         },
-        "48:10": {
+        "49:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 348,
           "y:3": 36,
           "id:3": 1195,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": 312,
+          "y:3": 180,
+          "id:3": 1701,
           "sizeY:3": 24
         }
       },
@@ -116168,7 +116787,7 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 216,
           "y:3": 72,
           "id:3": 270,
           "sizeY:3": 24
@@ -116182,8 +116801,8 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 72,
+          "x:3": 288,
+          "y:3": 0,
           "id:3": 351,
           "sizeY:3": 24
         },
@@ -116217,7 +116836,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 72,
           "id:3": 483,
           "sizeY:3": 24
@@ -116238,14 +116857,14 @@
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 252,
           "y:3": 72,
           "id:3": 486,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 288,
           "y:3": 144,
           "id:3": 488,
           "sizeY:3": 24
@@ -116267,7 +116886,7 @@
         "17:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 0,
+          "y:3": 36,
           "id:3": 491,
           "sizeY:3": 24
         },
@@ -116280,8 +116899,8 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
+          "x:3": 108,
+          "y:3": 108,
           "id:3": 493,
           "sizeY:3": 24
         },
@@ -116309,7 +116928,7 @@
         "23:10": {
           "sizeX:3": 24,
           "x:3": 216,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 499,
           "sizeY:3": 24
         },
@@ -116323,13 +116942,13 @@
         "25:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 36,
+          "y:3": 0,
           "id:3": 501,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 252,
           "y:3": 144,
           "id:3": 502,
           "sizeY:3": 24
@@ -116343,191 +116962,191 @@
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
-          "id:3": 504,
-          "sizeY:3": 24
-        },
-        "29:10": {
-          "sizeX:3": 24,
           "x:3": 360,
           "y:3": 108,
           "id:3": 507,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 360,
           "y:3": 144,
           "id:3": 508,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 180,
           "id:3": 509,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 36,
           "id:3": 520,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 108,
           "id:3": 545,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 180,
           "id:3": 558,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 180,
           "id:3": 692,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 180,
           "id:3": 723,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 0,
           "id:3": 734,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 36,
           "id:3": 737,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 60,
           "x:3": 36,
           "y:3": 72,
           "id:3": 753,
           "sizeY:3": 60
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 144,
           "id:3": 757,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 0,
           "id:3": 973,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 108,
+          "x:3": 144,
+          "y:3": 72,
           "id:3": 1022,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 72,
           "id:3": 1026,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 72,
           "id:3": 1159,
           "sizeY:3": 24
         },
-        "45:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 144,
           "id:3": 1160,
           "sizeY:3": 24
         },
-        "46:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 180,
           "id:3": 1161,
           "sizeY:3": 24
         },
-        "47:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 180,
           "id:3": 1197,
           "sizeY:3": 24
         },
-        "48:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 144,
           "id:3": 1214,
           "sizeY:3": 24
         },
-        "49:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 36,
           "id:3": 1239,
           "sizeY:3": 24
         },
-        "50:10": {
+        "49:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 0,
           "id:3": 1240,
           "sizeY:3": 24
         },
-        "51:10": {
+        "50:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 0,
           "id:3": 1241,
           "sizeY:3": 24
         },
-        "52:10": {
+        "51:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 108,
           "id:3": 1692,
           "sizeY:3": 24
         },
-        "53:10": {
+        "52:10": {
           "sizeX:3": 60,
           "x:3": 36,
           "y:3": 0,
           "id:3": 1696,
           "sizeY:3": 60
         },
-        "54:10": {
+        "53:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 108,
           "id:3": 1699,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 108,
+          "id:3": 1700,
           "sizeY:3": 24
         }
       },
@@ -116820,7 +117439,7 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 36,
+          "y:3": 72,
           "id:3": 84,
           "sizeY:3": 24
         },
@@ -116833,14 +117452,14 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 36,
+          "x:3": 252,
+          "y:3": 72,
           "id:3": 136,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 252,
           "y:3": 36,
           "id:3": 156,
           "sizeY:3": 24
@@ -116854,7 +117473,7 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 36,
           "id:3": 239,
           "sizeY:3": 24
@@ -116896,14 +117515,14 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 288,
           "y:3": 36,
           "id:3": 515,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 60,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 0,
           "id:3": 533,
           "sizeY:3": 60
@@ -116938,15 +117557,15 @@
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 108,
           "id:3": 588,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 0,
+          "x:3": 0,
+          "y:3": 72,
           "id:3": 598,
           "sizeY:3": 24
         },
@@ -117009,7 +117628,7 @@
         "27:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 180,
+          "y:3": 108,
           "id:3": 742,
           "sizeY:3": 24
         },
@@ -117030,48 +117649,48 @@
         "30:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 180,
+          "y:3": 108,
           "id:3": 745,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 60,
           "x:3": 0,
-          "y:3": 72,
+          "y:3": 180,
           "id:3": 746,
           "sizeY:3": 60
         },
         "32:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 72,
+          "y:3": 108,
           "id:3": 747,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 180,
+          "y:3": 216,
           "id:3": 748,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 252,
           "y:3": 0,
           "id:3": 751,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 0,
+          "x:3": 144,
+          "y:3": 36,
           "id:3": 752,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 72,
           "y:3": 180,
           "id:3": 756,
           "sizeY:3": 24
@@ -117079,7 +117698,7 @@
         "37:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 144,
+          "y:3": 180,
           "id:3": 758,
           "sizeY:3": 24
         },
@@ -117106,15 +117725,15 @@
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 216,
+          "x:3": 324,
+          "y:3": 180,
           "id:3": 762,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 763,
           "sizeY:3": 24
         },
@@ -117155,15 +117774,15 @@
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 288,
           "y:3": 0,
           "id:3": 1036,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 36,
+          "x:3": 324,
+          "y:3": 0,
           "id:3": 1037,
           "sizeY:3": 24
         },
@@ -117197,9 +117816,30 @@
         },
         "54:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 1230,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 36,
+          "id:3": 1706,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 0,
+          "id:3": 1707,
+          "sizeY:3": 24
+        },
+        "57:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 0,
+          "id:3": 1708,
           "sizeY:3": 24
         }
       },
@@ -117879,7 +118519,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 72,
           "y:3": 108,
           "id:3": 8,
           "sizeY:3": 24
@@ -117893,35 +118533,35 @@
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 108,
+          "x:3": 288,
+          "y:3": 144,
           "id:3": 45,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 36,
+          "y:3": 72,
           "id:3": 198,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 72,
+          "x:3": 288,
+          "y:3": 108,
           "id:3": 259,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 180,
+          "x:3": 324,
+          "y:3": 108,
           "id:3": 260,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 288,
           "y:3": 180,
           "id:3": 261,
           "sizeY:3": 24
@@ -117929,7 +118569,7 @@
         "7:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 144,
+          "y:3": 180,
           "id:3": 262,
           "sizeY:3": 24
         },
@@ -117949,7 +118589,7 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 252,
           "y:3": 144,
           "id:3": 266,
           "sizeY:3": 24
@@ -117957,14 +118597,14 @@
         "11:10": {
           "sizeX:3": 24,
           "x:3": 216,
-          "y:3": 72,
+          "y:3": 108,
           "id:3": 268,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 72,
+          "x:3": 108,
+          "y:3": 108,
           "id:3": 269,
           "sizeY:3": 24
         },
@@ -117978,105 +118618,105 @@
         "14:10": {
           "sizeX:3": 24,
           "x:3": 288,
-          "y:3": 108,
+          "y:3": 72,
           "id:3": 272,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 108,
+          "x:3": 0,
+          "y:3": 36,
           "id:3": 274,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 276,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 60,
           "x:3": 252,
-          "y:3": 36,
+          "y:3": 0,
           "id:3": 277,
           "sizeY:3": 60
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 108,
+          "x:3": 180,
+          "y:3": 144,
           "id:3": 358,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 108,
+          "x:3": 108,
+          "y:3": 144,
           "id:3": 510,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
           "x:3": 144,
-          "y:3": 144,
+          "y:3": 180,
           "id:3": 511,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 144,
+          "y:3": 180,
           "id:3": 512,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 0,
           "y:3": 180,
           "id:3": 513,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 144,
           "id:3": 514,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 0,
           "y:3": 144,
           "id:3": 516,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 144,
+          "x:3": 36,
+          "y:3": 108,
           "id:3": 517,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 180,
           "id:3": 518,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 180,
           "id:3": 519,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 180,
+          "x:3": 72,
+          "y:3": 144,
           "id:3": 522,
           "sizeY:3": 24
         },
@@ -118089,22 +118729,22 @@
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 324,
           "y:3": 0,
           "id:3": 832,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 144,
+          "x:3": 324,
+          "y:3": 180,
           "id:3": 943,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 108,
+          "x:3": 144,
+          "y:3": 144,
           "id:3": 945,
           "sizeY:3": 24
         },
@@ -118201,14 +118841,14 @@
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 108,
+          "x:3": 0,
+          "y:3": 0,
           "id:3": 1136,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 216,
           "y:3": 144,
           "id:3": 1216,
           "sizeY:3": 24
@@ -118218,6 +118858,41 @@
           "x:3": 36,
           "y:3": 0,
           "id:3": 1218,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 108,
+          "id:3": 1702,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 108,
+          "id:3": 1703,
+          "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 72,
+          "id:3": 1704,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 72,
+          "id:3": 1705,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 72,
+          "id:3": 1709,
           "sizeY:3": 24
         }
       },
