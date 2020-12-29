@@ -64579,7 +64579,7 @@
             "id:8": "IC2:itemAdvBat",
             "Count:3": 1,
             "Damage:2": 26,
-            "OreDict:8": ""
+            "OreDict:8": "batteryAdvanced"
           },
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
@@ -64605,7 +64605,7 @@
               "id:8": "IC2:itemAdvBat",
               "Count:3": 1,
               "Damage:2": 26,
-              "OreDict:8": ""
+              "OreDict:8": "batteryAdvanced"
             }
           },
           "taskID:8": "bq_standard:retrieval"
