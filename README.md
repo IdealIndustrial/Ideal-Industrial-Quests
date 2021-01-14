@@ -1,4 +1,6 @@
 # Ideal-Industrial-Quests
+### Релизы:
+здесь: https://github.com/IdealIndustrial/Ideal-Industrial-Quests/releases
 ### 1) Инструкция по установке:
 - Скачать и распаковать архив
 - Проверить папки config и mods на предыдущие версии квестов (модов и конфигов), удалить и закинуть новые файлы.
