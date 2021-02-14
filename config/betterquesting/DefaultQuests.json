@@ -2376,7 +2376,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "partySingleReward:1": 0,
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
@@ -2391,7 +2391,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Platinum Ingot",
+          "name:8": "Platinum",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -2411,6 +2411,23 @@
               "id:8": "gregtech:gt.metaitem.01",
               "Count:3": 1,
               "Damage:2": 11085,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 2085,
               "OreDict:8": ""
             }
           },
@@ -11366,9 +11383,10 @@
     "161:10": {
       "questID:3": 161,
       "preRequisites:11": [
-        921,
-        623,
-        896
+        896,
+        1737,
+        964,
+        27
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16660,7 +16678,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "minecraft:gold_ingot",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 0,
               "OreDict:8": "ingotGold"
             }
@@ -20044,7 +20062,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 17057,
               "OreDict:8": ""
             }
@@ -20333,7 +20351,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 23032,
               "OreDict:8": ""
             }
@@ -20465,7 +20483,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 1246,
               "OreDict:8": ""
             }
@@ -20890,7 +20908,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 17304,
               "OreDict:8": "plateWroughtIron"
             }
@@ -21085,7 +21103,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use your allow smelter to smelt Invar Ingot from 2 iron and 1 nickel"
+          "desc:8": "Use your allow smelter to smelt Invar Ingot from 2 iron and 1 nickel. You have to craft at least §b56§r ingots"
         }
       },
       "tasks:9": {
@@ -21099,7 +21117,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 56,
               "Damage:2": 11302,
               "OreDict:8": "ingotInvar"
             }
@@ -21234,7 +21252,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 7,
               "Damage:2": 4398,
               "OreDict:8": ""
             }
@@ -21305,7 +21323,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 42,
               "Damage:2": 17302,
               "OreDict:8": "plateInvar"
             }
@@ -21442,7 +21460,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockcasings",
-              "Count:3": 1,
+              "Count:3": 13,
               "Damage:2": 11,
               "OreDict:8": ""
             }
@@ -21637,7 +21655,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 28879,
               "OreDict:8": ""
             }
@@ -22357,23 +22375,6 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "3:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 3,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
-              "Damage:2": 51,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "4:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
@@ -25558,7 +25559,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 29035,
               "OreDict:8": ""
             }
@@ -27857,7 +27858,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "minecraft:gunpowder",
-              "Count:3": 2,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -28025,7 +28026,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "minecraft:gunpowder",
-              "Count:3": 2,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -28135,7 +28136,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Wood plank is base material to craft circuit board. To make it, you should put wood pilp to compressor."
+          "desc:8": "Wood plank is base material to craft circuit board. To make it, you should put wood pulp to compressor."
         }
       },
       "tasks:9": {
@@ -28860,7 +28861,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 32700,
               "OreDict:8": ""
             }
@@ -29007,7 +29008,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.03",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 32012,
               "OreDict:8": ""
             }
@@ -29079,7 +29080,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 32716,
               "OreDict:8": ""
             }
@@ -29290,7 +29291,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 2,
+              "Count:3": 6,
               "Damage:2": 11308,
               "OreDict:8": "ingotRedAlloy"
             }
@@ -29792,7 +29793,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 1360,
               "OreDict:8": ""
             }
@@ -30287,7 +30288,7 @@
       "questID:3": 430,
       "preRequisites:11": [
         329,
-        415
+        1748
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -32333,7 +32334,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You have to craft 32 of them, but one note, that it crafts by 2 items per one crafting operation, so you need to do it only 16 times."
+          "desc:8": "You have to craft 32 of them."
         }
       },
       "tasks:9": {
@@ -33629,7 +33630,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 9,
               "Damage:2": 2896,
               "OreDict:8": ""
             }
@@ -35796,7 +35797,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 1362,
               "OreDict:8": ""
             }
@@ -36803,9 +36804,9 @@
     "521:10": {
       "questID:3": 521,
       "preRequisites:11": [
-        716,
         941,
-        1192
+        1192,
+        1733
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -47745,6 +47746,18 @@
               "Count:3": 1,
               "Damage:2": 14,
               "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.metaitem.02",
+              "Count:3": 18,
+              "Damage:2": 30505,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 11070,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -50296,7 +50309,7 @@
         244,
         245,
         72,
-        533
+        741
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -50786,7 +50799,7 @@
       "questID:3": 715,
       "preRequisites:11": [
         714,
-        380
+        1732
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -52706,7 +52719,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "Forestry:thermionicTubes",
-              "Count:3": 1,
+              "Count:3": 9,
               "Damage:2": 1,
               "OreDict:8": ""
             }
@@ -52738,7 +52751,8 @@
     "744:10": {
       "questID:3": 744,
       "preRequisites:11": [
-        745
+        745,
+        743
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -52808,7 +52822,8 @@
     "745:10": {
       "questID:3": 745,
       "preRequisites:11": [
-        743
+        482,
+        190
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -59553,7 +59568,8 @@
       "questID:3": 846,
       "preRequisites:11": [
         845,
-        1149
+        1149,
+        722
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -59888,7 +59904,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height to search: 20 - 50 TUNGSTATE vein (Scheelite, Tungstate, Lithium). But it wil be hard to find. So use centrifuge MV+ tier to separate lava to get few type of resources including the small pile of tangstate dust with a small chance (only 2.5% per every 100 mb)."
+          "desc:8": "Height to search: 20 - 50 TUNGSTATE vein (Scheelite, Tungstate, Lithium). But it wil be hard to find. So you may use centrifuge MV+ tier to separate lava to get few type of resources including the small pile of tangstate dust with a tiny chance (only 2.5% per every 100 mb)."
         }
       },
       "tasks:9": {
@@ -60146,8 +60162,8 @@
     "855:10": {
       "questID:3": 855,
       "preRequisites:11": [
-        851,
-        856
+        856,
+        1734
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -60500,8 +60516,8 @@
       "preRequisites:11": [
         536,
         522,
-        854,
-        770
+        770,
+        1736
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -62966,8 +62982,8 @@
     "894:10": {
       "questID:3": 894,
       "preRequisites:11": [
-        623,
-        927
+        1746,
+        1747
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -62989,7 +63005,7 @@
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "name:8": "Advanced Lappack",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
@@ -64335,10 +64351,9 @@
     "914:10": {
       "questID:3": 914,
       "preRequisites:11": [
-        916,
-        917,
         896,
-        789
+        1739,
+        247
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -65308,7 +65323,9 @@
       "preRequisites:11": [
         894,
         929,
-        930
+        930,
+        800,
+        33
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -65841,8 +65858,8 @@
     "936:10": {
       "questID:3": 936,
       "preRequisites:11": [
-        161,
-        366
+        366,
+        161
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -67469,7 +67486,7 @@
           "snd_complete:8": "random.levelup",
           "taskLogic:8": "AND",
           "partySingleReward:1": 0,
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
@@ -67918,7 +67935,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 1420,
               "OreDict:8": ""
             }
@@ -68635,7 +68652,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "An alloy of copper and nickel. Can be produced by alloy smelter."
+          "desc:8": "An alloy of copper and nickel. Can be produced by alloy smelter. You have to prepare a full stacks of §6copper§r and §bnickel§r ingots ar dusts (one per each material) to go forward."
         }
       },
       "tasks:9": {
@@ -68649,7 +68666,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 128,
               "Damage:2": 11310,
               "OreDict:8": ""
             }
@@ -68720,7 +68737,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 128,
               "Damage:2": 1341,
               "OreDict:8": ""
             }
@@ -69780,19 +69797,19 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 9,
+              "Count:3": 18,
               "Damage:2": 9032,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 9,
+              "Count:3": 18,
               "Damage:2": 9304,
               "OreDict:8": ""
             },
             "2:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 11304,
               "OreDict:8": ""
             }
@@ -72462,7 +72479,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 1226,
               "OreDict:8": ""
             }
@@ -72527,7 +72544,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 1220,
               "OreDict:8": ""
             }
@@ -75849,7 +75866,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 28,
               "Damage:2": 23302,
               "OreDict:8": ""
             }
@@ -78225,7 +78242,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 9,
               "Damage:2": 2379,
               "OreDict:8": "dustRedstoneAlloy"
             }
@@ -78290,7 +78307,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "EnderIO:itemAlloy",
-              "Count:3": 1,
+              "Count:3": 9,
               "Damage:2": 3,
               "OreDict:8": "ingotRedstoneAlloy"
             }
@@ -81853,7 +81870,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Now you have to choose what blast furnace you will craft and build. You don\u0027t need to craft them both to get steel. Note, that §6Bronze Blast Furnace§f you may craft early than §cbricked§f (if you have hammer already). §cBricked Blast Furnace§f require §ecompressor and forge hammer§f to be crafted. But it is §astrongly recommended§f to use steam machines to make any type of blast furnace to spend you resources with §amore efficient§f."
+          "desc:8": "Now you have to choose what blast furnace you will craft and build. You don\u0027t need to craft them both to get steel. Note that the §6Bronze Blast furnace§r can be crafted earlier than the §cbricked§r version (if you have hammer already). The §cBricked Blast Furnace§r requires a §ecompressor§r and a §eforge hammer§r to be crafted. Regardless of which version you choose to build, it is §astrongly recommended§r to use steam machines to use your ressources more efficiently."
         }
       },
       "tasks:9": {
@@ -81989,7 +82006,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 2805,
               "OreDict:8": ""
             }
@@ -82060,7 +82077,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 2626,
               "OreDict:8": ""
             }
@@ -82131,7 +82148,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 32110,
               "OreDict:8": ""
             }
@@ -82201,7 +82218,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 32111,
               "OreDict:8": ""
             }
@@ -82273,13 +82290,13 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 4,
+              "Count:3": 8,
               "Damage:2": 1625,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 2625,
               "OreDict:8": ""
             }
@@ -82603,12 +82620,7 @@
           "desc:8": "Now you may use MV distillery to make an ethylene from wood gas."
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {
         "0:10": {
           "rewardID:8": "bq_standard:item",
@@ -82716,7 +82728,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use file or lathe to make a steel rod from steel ingot."
+          "desc:8": "Use file or lathe (or MV extruder, if you have it) to make a steel rod from steel ingot."
         }
       },
       "tasks:9": {
@@ -82738,7 +82750,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "1195:10": {
       "questID:3": 1195,
@@ -82781,7 +82806,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 4,
               "Damage:2": 1241,
               "OreDict:8": ""
             }
@@ -83417,7 +83442,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.blockmachines",
-              "Count:3": 1,
+              "Count:3": 2,
               "Damage:2": 1240,
               "OreDict:8": ""
             }
@@ -83425,7 +83450,20 @@
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "1206:10": {
       "questID:3": 1206,
@@ -84921,7 +84959,20 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "1233:10": {
       "questID:3": 1233,
@@ -110830,12 +110881,7 @@
           "desc:8": "The cheap way to craft fine wires is to use wiremill instead of using wire cutter on a foil."
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {
         "0:10": {
           "rewardID:8": "bq_standard:item",
@@ -110934,7 +110980,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "You may use it to get a raw rubber from a sticky resin. Or to get dyes from flowers with more efficient."
+          "desc:8": "You may use it to get a raw rubber from a sticky resin. Or to get dyes from flowers with more efficient. But it is §cstrongly recommended§r to use exactly §acentrifuge§r to produce a raw rubber, because it will give you also a glue."
         }
       },
       "tasks:9": {
@@ -111041,7 +111087,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
+              "Count:3": 9,
               "Damage:2": 17379,
               "OreDict:8": "plateRedstoneAlloy"
             }
@@ -112310,6 +112356,886 @@
               "id:8": "lootbags:lootbag",
               "Count:3": 1,
               "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1732:10": {
+      "questID:3": 1732,
+      "preRequisites:11": [
+        380,
+        708
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:potion",
+            "Count:3": 1,
+            "Damage:2": 8259,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "name:8": "LV or MV Distillery",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You have to craft one of: LV or MV Distillery."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "1733:10": {
+      "questID:3": 1733,
+      "preRequisites:11": [
+        716,
+        708
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "EnderIO:itemModItemFilter",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "From Naphtha Recipe",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You may use Advanced Distillery to produce an ethylene from naphtha."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1734:10": {
+      "questID:3": 1734,
+      "preRequisites:11": [
+        851,
+        1735
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 2889,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Tungstate or Scheelite Dust",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1735:10": {
+      "questID:3": 1735,
+      "preRequisites:11": [
+        1233
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 2910,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Scheelite Dust",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Height to search: 20 - 50 TUNGSTATE vein (Scheelite, Tungstate, Lithium). But it wil be hard to find. So you may use centrifuge MV+ tier to separate lava to get few type of resources including the small pile of tangstate dust with a tiny chance (only 2.5% per every 100 mb)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 2910,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1736:10": {
+      "questID:3": 1736,
+      "preRequisites:11": [
+        854
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.blockmachines",
+            "Count:3": 1,
+            "Damage:2": 1680,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "1x Tungsten Wire",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "User wiremill to make a wire."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.blockmachines",
+              "Count:3": 1,
+              "Damage:2": 1680,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1737:10": {
+      "questID:3": 1737,
+      "preRequisites:11": [
+        1738,
+        623,
+        860
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "IC2:blockElectric",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "MFSU",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "IC2:blockElectric",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1738:10": {
+      "questID:3": 1738,
+      "preRequisites:11": [
+        1108,
+        974
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "IC2:blockElectric",
+            "Count:3": 1,
+            "tag:10": {},
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "name:8": "EV machine hull or MFE",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1739:10": {
+      "questID:3": 1739,
+      "preRequisites:11": [
+        1742,
+        1745
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 24505,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "OR",
+          "name:8": "Olivine Lens",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "There are few ways how to craft it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 24505,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1740:10": {
+      "questID:3": 1740,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 8505,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Olivine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "You have to find 9 Olivines"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 9,
+              "Damage:2": 8505,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1741:10": {
+      "questID:3": 1741,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.02",
+            "Count:3": 1,
+            "Damage:2": 30505,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "New Quest",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.02",
+              "Count:3": 1,
+              "Damage:2": 30505,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1742:10": {
+      "questID:3": 1742,
+      "preRequisites:11": [
+        299,
+        1741
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.blockmachines",
+            "Count:3": 1,
+            "Damage:2": 291,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Lathe and Exuisite Olivine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "1743:10": {
+      "questID:3": 1743,
+      "preRequisites:11": [
+        1744
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 17505,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Olivine Plate",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Use a cutting machine to make a plate from a block"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 17505,
+              "OreDict:8": "plateOlivine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1744:10": {
+      "questID:3": 1744,
+      "preRequisites:11": [
+        1740,
+        74
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.blockgem2",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Block of Olivine",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Use a compressor to make an blick of olivine"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.blockgem2",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1745:10": {
+      "questID:3": 1745,
+      "preRequisites:11": [
+        1743,
+        260
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.blockmachines",
+            "Count:3": 1,
+            "Damage:2": 293,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Olivine Lens from a Plate",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "1746:10": {
+      "questID:3": 1746,
+      "preRequisites:11": [
+        623,
+        927,
+        236
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.comb",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Lapotron Crystal Way",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1747:10": {
+      "questID:3": 1747,
+      "preRequisites:11": [
+        927,
+        33,
+        800,
+        272
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.comb",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Energy Crystal Way",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1748:10": {
+      "questID:3": 1748,
+      "preRequisites:11": [
+        415
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 17308,
+            "OreDict:8": "plateRedAlloy"
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Red Alloy Plate",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Use a Forge Hammer to make a plates from an ingots."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 4,
+              "Damage:2": 17308,
+              "OreDict:8": "plateRedAlloy"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 10,
               "OreDict:8": ""
             }
           }
@@ -117544,8 +118470,8 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 240,
-          "y:3": 144,
+          "x:3": 336,
+          "y:3": 108,
           "id:3": 256,
           "sizeY:3": 24
         },
@@ -117705,8 +118631,8 @@
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 336,
-          "y:3": 108,
+          "x:3": 240,
+          "y:3": 144,
           "id:3": 415,
           "sizeY:3": 24
         },
@@ -117782,14 +118708,14 @@
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 300,
-          "y:3": 108,
+          "x:3": 240,
+          "y:3": 72,
           "id:3": 430,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 300,
           "y:3": 108,
           "id:3": 731,
           "sizeY:3": 24
@@ -117869,6 +118795,13 @@
           "x:3": 60,
           "y:3": 72,
           "id:3": 1662,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 108,
+          "id:3": 1748,
           "sizeY:3": 24
         }
       },
@@ -118993,22 +119926,22 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 144,
+          "x:3": 216,
+          "y:3": 36,
           "id:3": 326,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 108,
+          "x:3": 252,
+          "y:3": 72,
           "id:3": 380,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 108,
+          "x:3": 108,
+          "y:3": 0,
           "id:3": 388,
           "sizeY:3": 24
         },
@@ -119021,8 +119954,8 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 72,
+          "x:3": 288,
+          "y:3": 36,
           "id:3": 515,
           "sizeY:3": 24
         },
@@ -119035,8 +119968,8 @@
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 180,
+          "x:3": 324,
+          "y:3": 216,
           "id:3": 550,
           "sizeY:3": 24
         },
@@ -119049,15 +119982,15 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 216,
           "y:3": 180,
           "id:3": 577,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 108,
+          "x:3": 288,
+          "y:3": 180,
           "id:3": 579,
           "sizeY:3": 24
         },
@@ -119084,275 +120017,289 @@
         },
         "20:10": {
           "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 72,
+          "id:3": 708,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
           "x:3": 72,
           "y:3": 36,
           "id:3": 730,
           "sizeY:3": 24
         },
-        "21:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 144,
           "id:3": 733,
           "sizeY:3": 24
         },
-        "22:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 144,
           "id:3": 735,
           "sizeY:3": 24
         },
-        "23:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 108,
           "id:3": 736,
           "sizeY:3": 24
         },
-        "24:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 144,
           "id:3": 739,
           "sizeY:3": 24
         },
-        "25:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 72,
           "id:3": 740,
           "sizeY:3": 24
         },
-        "26:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 72,
           "id:3": 741,
           "sizeY:3": 24
         },
-        "27:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 72,
-          "id:3": 742,
-          "sizeY:3": 24
-        },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 180,
           "y:3": 36,
-          "id:3": 743,
+          "id:3": 742,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 396,
           "y:3": 0,
-          "id:3": 744,
+          "id:3": 743,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 0,
-          "id:3": 745,
+          "x:3": 396,
+          "y:3": 72,
+          "id:3": 744,
           "sizeY:3": 24
         },
         "31:10": {
-          "sizeX:3": 60,
-          "x:3": 324,
-          "y:3": 0,
-          "id:3": 746,
-          "sizeY:3": 60
+          "sizeX:3": 24,
+          "x:3": 360,
+          "y:3": 72,
+          "id:3": 745,
+          "sizeY:3": 24
         },
         "32:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 36,
-          "id:3": 747,
-          "sizeY:3": 24
+          "sizeX:3": 60,
+          "x:3": 396,
+          "y:3": 108,
+          "id:3": 746,
+          "sizeY:3": 60
         },
         "33:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 180,
-          "id:3": 748,
+          "y:3": 108,
+          "id:3": 747,
           "sizeY:3": 24
         },
         "34:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 144,
+          "id:3": 748,
+          "sizeY:3": 24
+        },
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 0,
           "id:3": 752,
           "sizeY:3": 24
         },
-        "35:10": {
-          "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 72,
-          "id:3": 756,
-          "sizeY:3": 24
-        },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 144,
-          "id:3": 758,
+          "x:3": 144,
+          "y:3": 0,
+          "id:3": 756,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 72,
-          "id:3": 759,
+          "x:3": 252,
+          "y:3": 180,
+          "id:3": 758,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 144,
-          "id:3": 760,
+          "x:3": 288,
+          "y:3": 108,
+          "id:3": 759,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 108,
-          "id:3": 761,
+          "x:3": 252,
+          "y:3": 144,
+          "id:3": 760,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 180,
-          "id:3": 762,
+          "x:3": 216,
+          "y:3": 108,
+          "id:3": 761,
           "sizeY:3": 24
         },
         "41:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 108,
+          "id:3": 762,
+          "sizeY:3": 24
+        },
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 108,
           "id:3": 763,
           "sizeY:3": 24
         },
-        "42:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 108,
           "id:3": 764,
           "sizeY:3": 24
         },
-        "43:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 144,
           "id:3": 852,
           "sizeY:3": 24
         },
-        "44:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 108,
-          "id:3": 918,
-          "sizeY:3": 24
-        },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 288,
           "y:3": 144,
-          "id:3": 919,
+          "id:3": 918,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 144,
-          "id:3": 920,
+          "y:3": 216,
+          "id:3": 919,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 72,
-          "id:3": 1120,
+          "x:3": 288,
+          "y:3": 216,
+          "id:3": 920,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 72,
-          "id:3": 1121,
+          "x:3": 324,
+          "y:3": 144,
+          "id:3": 1120,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 180,
-          "id:3": 1153,
+          "x:3": 360,
+          "y:3": 108,
+          "id:3": 1121,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 360,
+          "y:3": 144,
+          "id:3": 1153,
+          "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": 324,
           "y:3": 180,
           "id:3": 1206,
           "sizeY:3": 24
         },
-        "51:10": {
+        "52:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 180,
           "id:3": 1208,
           "sizeY:3": 24
         },
-        "52:10": {
+        "53:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 288,
           "y:3": 72,
           "id:3": 1229,
           "sizeY:3": 24
         },
-        "53:10": {
-          "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 108,
-          "id:3": 1230,
-          "sizeY:3": 24
-        },
         "54:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 0,
-          "id:3": 1708,
+          "x:3": 252,
+          "y:3": 36,
+          "id:3": 1230,
           "sizeY:3": 24
         },
         "55:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 324,
           "y:3": 36,
-          "id:3": 1712,
+          "id:3": 1708,
           "sizeY:3": 24
         },
         "56:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 0,
-          "id:3": 1720,
+          "x:3": 324,
+          "y:3": 72,
+          "id:3": 1712,
           "sizeY:3": 24
         },
         "57:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 36,
-          "id:3": 1721,
+          "x:3": 432,
+          "y:3": 72,
+          "id:3": 1720,
           "sizeY:3": 24
         },
         "58:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 180,
           "y:3": 0,
+          "id:3": 1721,
+          "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 180,
           "id:3": 1722,
+          "sizeY:3": 24
+        },
+        "60:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 72,
+          "id:3": 1732,
           "sizeY:3": 24
         }
       },
@@ -119388,7 +120335,7 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 144,
           "y:3": -36,
           "id:3": 211,
           "sizeY:3": 24
@@ -119465,234 +120412,234 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": -36,
-          "id:3": 708,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
           "x:3": 36,
           "y:3": -36,
           "id:3": 714,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": -36,
           "id:3": 715,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 0,
+          "y:3": -36,
           "id:3": 716,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": -36,
           "id:3": 717,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 36,
           "id:3": 718,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 108,
           "id:3": 719,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 72,
           "id:3": 720,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 108,
           "id:3": 721,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 144,
           "id:3": 722,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 144,
           "id:3": 724,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 144,
           "id:3": 725,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 144,
           "id:3": 726,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 108,
           "id:3": 727,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 108,
           "id:3": 728,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 108,
           "id:3": 729,
           "sizeY:3": 24
         },
-        "28:10": {
+        "27:10": {
           "sizeX:3": 60,
           "x:3": -36,
           "y:3": 36,
           "id:3": 800,
           "sizeY:3": 60
         },
-        "29:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 72,
           "id:3": 801,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": -36,
           "id:3": 828,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 0,
           "id:3": 838,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 36,
           "id:3": 842,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 36,
           "id:3": 941,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 60,
           "x:3": -36,
           "y:3": -36,
           "id:3": 1012,
           "sizeY:3": 60
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 0,
           "id:3": 1013,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 0,
           "id:3": 1192,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 108,
           "id:3": 1309,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": -72,
           "y:3": 36,
           "id:3": 1698,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 0,
           "id:3": 1714,
           "sizeY:3": 24
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 0,
           "id:3": 1715,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 0,
           "id:3": 1716,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 108,
           "id:3": 1717,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 108,
           "id:3": 1718,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 60,
           "x:3": 216,
           "y:3": 36,
           "id:3": 1719,
           "sizeY:3": 60
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 0,
+          "id:3": 1733,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 14,
@@ -120144,313 +121091,341 @@
         },
         "3:10": {
           "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 131,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
           "x:3": 324,
           "y:3": 36,
           "id:3": 198,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 72,
           "id:3": 259,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 180,
           "id:3": 260,
           "sizeY:3": 24
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 180,
           "id:3": 261,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 144,
           "id:3": 262,
           "sizeY:3": 24
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 180,
           "id:3": 263,
           "sizeY:3": 24
         },
-        "9:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 180,
           "id:3": 264,
           "sizeY:3": 24
         },
-        "10:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 144,
           "id:3": 266,
           "sizeY:3": 24
         },
-        "11:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 72,
           "id:3": 268,
           "sizeY:3": 24
         },
-        "12:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 72,
           "id:3": 269,
           "sizeY:3": 24
         },
-        "13:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 108,
           "id:3": 271,
           "sizeY:3": 24
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 108,
           "id:3": 272,
           "sizeY:3": 24
         },
-        "15:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 108,
           "id:3": 274,
           "sizeY:3": 24
         },
-        "16:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 0,
           "id:3": 276,
           "sizeY:3": 24
         },
-        "17:10": {
+        "18:10": {
           "sizeX:3": 60,
           "x:3": 252,
           "y:3": 36,
           "id:3": 277,
           "sizeY:3": 60
         },
-        "18:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 108,
           "id:3": 358,
           "sizeY:3": 24
         },
-        "19:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 108,
           "id:3": 510,
           "sizeY:3": 24
         },
-        "20:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 144,
           "id:3": 512,
           "sizeY:3": 24
         },
-        "21:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 144,
           "id:3": 513,
           "sizeY:3": 24
         },
-        "22:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 144,
           "id:3": 514,
           "sizeY:3": 24
         },
-        "23:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 180,
           "id:3": 516,
           "sizeY:3": 24
         },
-        "24:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 144,
           "id:3": 517,
           "sizeY:3": 24
         },
-        "25:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 180,
           "id:3": 518,
           "sizeY:3": 24
         },
-        "26:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 180,
           "id:3": 519,
           "sizeY:3": 24
         },
-        "27:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 180,
           "id:3": 522,
           "sizeY:3": 24
         },
-        "28:10": {
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 72,
+          "id:3": 773,
+          "sizeY:3": 24
+        },
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 36,
           "id:3": 817,
           "sizeY:3": 24
         },
-        "29:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 0,
           "id:3": 832,
           "sizeY:3": 24
         },
-        "30:10": {
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 108,
+          "id:3": 916,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 180,
+          "id:3": 940,
+          "sizeY:3": 24
+        },
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 144,
           "id:3": 943,
           "sizeY:3": 24
         },
-        "31:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 108,
           "id:3": 945,
           "sizeY:3": 24
         },
-        "32:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 108,
+          "y:3": 0,
           "id:3": 967,
           "sizeY:3": 24
         },
-        "33:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 72,
+          "y:3": 36,
           "id:3": 968,
           "sizeY:3": 24
         },
-        "34:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 72,
           "id:3": 969,
           "sizeY:3": 24
         },
-        "35:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 36,
           "id:3": 970,
           "sizeY:3": 24
         },
-        "36:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 36,
           "id:3": 972,
           "sizeY:3": 24
         },
-        "37:10": {
+        "41:10": {
           "sizeX:3": 60,
           "x:3": 180,
           "y:3": 0,
           "id:3": 1046,
           "sizeY:3": 60
         },
-        "38:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 72,
           "id:3": 1047,
           "sizeY:3": 24
         },
-        "39:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 36,
           "id:3": 1050,
           "sizeY:3": 24
         },
-        "40:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 0,
           "id:3": 1052,
           "sizeY:3": 24
         },
-        "41:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 72,
           "id:3": 1053,
           "sizeY:3": 24
         },
-        "42:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 72,
           "id:3": 1054,
           "sizeY:3": 24
         },
-        "43:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 0,
           "id:3": 1055,
           "sizeY:3": 24
         },
-        "44:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 0,
           "id:3": 1056,
           "sizeY:3": 24
         },
-        "45:10": {
+        "49:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 108,
           "id:3": 1136,
           "sizeY:3": 24
         },
-        "46:10": {
+        "50:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 144,
           "id:3": 1216,
           "sizeY:3": 24
         },
-        "47:10": {
+        "51:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 0,
@@ -121038,9 +122013,9 @@
           "visibility:8": "NORMAL",
           "name:8": "Cross breeding",
           "icon:10": {
-            "id:8": "IC2:itemCropnalyzer",
+            "id:8": "gregtech:gt.metaitem.02",
             "Count:3": 1,
-            "Damage:2": 26,
+            "Damage:2": 32554,
             "OreDict:8": ""
           },
           "bg_image:8": "",
@@ -121563,7 +122538,7 @@
           "visibility:8": "NORMAL",
           "name:8": "AE2: Proc. \u0026 Cont.",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "appliedenergistics2:tile.BlockController",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -122756,338 +123731,471 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 120,
-          "id:3": 131,
+          "x:3": 240,
+          "y:3": 96,
+          "id:3": 27,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 120,
-          "id:3": 133,
+          "x:3": 240,
+          "y:3": 132,
+          "id:3": 30,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 48,
-          "id:3": 161,
+          "x:3": 276,
+          "y:3": 132,
+          "id:3": 133,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 192,
-          "id:3": 564,
+          "x:3": 240,
+          "y:3": 60,
+          "id:3": 161,
           "sizeY:3": 24
         },
         "4:10": {
+          "sizeX:3": 24,
+          "x:3": 240,
+          "y:3": 204,
+          "id:3": 564,
+          "sizeY:3": 24
+        },
+        "5:10": {
           "sizeX:3": 48,
-          "x:3": 84,
-          "y:3": 120,
+          "x:3": 180,
+          "y:3": 96,
           "id:3": 623,
           "sizeY:3": 48
         },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 120,
-          "id:3": 648,
-          "sizeY:3": 24
-        },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 84,
-          "id:3": 773,
+          "x:3": 312,
+          "y:3": 132,
+          "id:3": 648,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 156,
+          "x:3": 312,
+          "y:3": 168,
           "id:3": 786,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 156,
+          "x:3": 348,
+          "y:3": 168,
           "id:3": 787,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 120,
+          "x:3": 348,
+          "y:3": 132,
           "id:3": 789,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 192,
-          "id:3": 887,
+          "x:3": 72,
+          "y:3": 156,
+          "id:3": 850,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 84,
-          "id:3": 889,
+          "x:3": 36,
+          "y:3": 156,
+          "id:3": 851,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 72,
-          "id:3": 891,
+          "x:3": 0,
+          "y:3": 84,
+          "id:3": 854,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 108,
-          "id:3": 893,
+          "x:3": 0,
+          "y:3": 120,
+          "id:3": 855,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 132,
-          "id:3": 894,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 856,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 48,
-          "id:3": 896,
+          "x:3": 120,
+          "y:3": 12,
+          "id:3": 860,
           "sizeY:3": 24
         },
         "16:10": {
-          "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 180,
-          "id:3": 902,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "x:3": 108,
+          "y:3": 228,
+          "id:3": 887,
+          "sizeY:3": 48
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 84,
-          "id:3": 914,
+          "x:3": 384,
+          "y:3": 96,
+          "id:3": 889,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 192,
-          "id:3": 915,
+          "id:3": 891,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 84,
-          "id:3": 916,
+          "x:3": 72,
+          "y:3": 228,
+          "id:3": 893,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 0,
-          "id:3": 921,
+          "x:3": 192,
+          "y:3": 192,
+          "id:3": 894,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 24,
-          "id:3": 922,
+          "x:3": 312,
+          "y:3": 60,
+          "id:3": 896,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 48,
-          "id:3": 923,
+          "x:3": 420,
+          "y:3": 204,
+          "id:3": 902,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 0,
-          "id:3": 924,
+          "x:3": 348,
+          "y:3": 96,
+          "id:3": 914,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 36,
-          "id:3": 925,
+          "x:3": 120,
+          "y:3": 192,
+          "id:3": 915,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 0,
-          "id:3": 926,
+          "x:3": 312,
+          "y:3": 12,
+          "id:3": 921,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 156,
-          "id:3": 927,
+          "x:3": 348,
+          "y:3": 36,
+          "id:3": 922,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 216,
-          "id:3": 928,
+          "x:3": 384,
+          "y:3": 60,
+          "id:3": 923,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 216,
-          "id:3": 929,
+          "x:3": 384,
+          "y:3": 12,
+          "id:3": 924,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 216,
-          "id:3": 931,
+          "x:3": 420,
+          "y:3": 60,
+          "id:3": 925,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 192,
-          "id:3": 932,
+          "x:3": 420,
+          "y:3": 12,
+          "id:3": 926,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 144,
-          "id:3": 933,
+          "x:3": 156,
+          "y:3": 156,
+          "id:3": 927,
           "sizeY:3": 24
         },
         "32:10": {
-          "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 36,
-          "id:3": 934,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "x:3": 180,
+          "y:3": 228,
+          "id:3": 928,
+          "sizeY:3": 48
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 192,
-          "id:3": 935,
+          "x:3": 312,
+          "y:3": 240,
+          "id:3": 929,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 0,
-          "id:3": 936,
+          "x:3": 384,
+          "y:3": 240,
+          "id:3": 931,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 192,
-          "id:3": 937,
+          "x:3": 348,
+          "y:3": 204,
+          "id:3": 932,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 156,
-          "id:3": 938,
+          "x:3": 456,
+          "y:3": 204,
+          "id:3": 933,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 72,
-          "id:3": 939,
+          "x:3": 276,
+          "y:3": 204,
+          "id:3": 934,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 156,
-          "id:3": 940,
+          "x:3": 384,
+          "y:3": 204,
+          "id:3": 935,
           "sizeY:3": 24
         },
         "39:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 48,
-          "id:3": 942,
-          "sizeY:3": 24
+          "sizeX:3": 48,
+          "x:3": 228,
+          "y:3": 0,
+          "id:3": 936,
+          "sizeY:3": 48
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 144,
-          "id:3": 964,
+          "x:3": 240,
+          "y:3": 168,
+          "id:3": 937,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 84,
-          "id:3": 1017,
+          "x:3": 276,
+          "y:3": 168,
+          "id:3": 938,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 84,
-          "id:3": 1018,
+          "x:3": 456,
+          "y:3": 60,
+          "id:3": 939,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 0,
-          "id:3": 1019,
+          "x:3": 72,
+          "y:3": 120,
+          "id:3": 942,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 0,
-          "id:3": 1020,
+          "x:3": 276,
+          "y:3": 96,
+          "id:3": 964,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 180,
-          "id:3": 1038,
+          "x:3": 108,
+          "y:3": 156,
+          "id:3": 1017,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 108,
-          "id:3": 1226,
+          "x:3": 108,
+          "y:3": 120,
+          "id:3": 1018,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 48,
+          "x:3": 36,
+          "y:3": 36,
+          "id:3": 1019,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 36,
+          "id:3": 1020,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": 312,
+          "y:3": 96,
+          "id:3": 1038,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": 456,
+          "y:3": 168,
+          "id:3": 1226,
+          "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 192,
+          "id:3": 1233,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 84,
           "id:3": 1713,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 120,
+          "id:3": 1734,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 156,
+          "id:3": 1735,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 12,
+          "id:3": 1736,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 60,
+          "id:3": 1737,
+          "sizeY:3": 24
+        },
+        "57:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 12,
+          "id:3": 1738,
+          "sizeY:3": 24
+        },
+        "58:10": {
+          "sizeX:3": 24,
+          "x:3": 384,
+          "y:3": 132,
+          "id:3": 1739,
+          "sizeY:3": 24
+        },
+        "59:10": {
+          "sizeX:3": 24,
+          "x:3": 456,
+          "y:3": 132,
+          "id:3": 1740,
+          "sizeY:3": 24
+        },
+        "60:10": {
+          "sizeX:3": 24,
+          "x:3": 420,
+          "y:3": 168,
+          "id:3": 1741,
+          "sizeY:3": 24
+        },
+        "61:10": {
+          "sizeX:3": 24,
+          "x:3": 384,
+          "y:3": 168,
+          "id:3": 1742,
+          "sizeY:3": 24
+        },
+        "62:10": {
+          "sizeX:3": 24,
+          "x:3": 420,
+          "y:3": 96,
+          "id:3": 1743,
+          "sizeY:3": 24
+        },
+        "63:10": {
+          "sizeX:3": 24,
+          "x:3": 456,
+          "y:3": 96,
+          "id:3": 1744,
+          "sizeY:3": 24
+        },
+        "64:10": {
+          "sizeX:3": 24,
+          "x:3": 420,
+          "y:3": 132,
+          "id:3": 1745,
+          "sizeY:3": 24
+        },
+        "65:10": {
+          "sizeX:3": 24,
+          "x:3": 192,
+          "y:3": 156,
+          "id:3": 1746,
+          "sizeY:3": 24
+        },
+        "66:10": {
+          "sizeX:3": 24,
+          "x:3": 156,
+          "y:3": 192,
+          "id:3": 1747,
           "sizeY:3": 24
         }
       },
@@ -123112,342 +124220,328 @@
     "24:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 0,
-          "id:3": 27,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 0,
-          "id:3": 30,
-          "sizeY:3": 24
-        },
-        "2:10": {
           "sizeX:3": 60,
           "x:3": 72,
           "y:3": 72,
           "id:3": 639,
           "sizeY:3": 60
         },
-        "3:10": {
+        "1:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 72,
           "id:3": 647,
           "sizeY:3": 24
         },
-        "4:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 36,
           "id:3": 649,
           "sizeY:3": 24
         },
-        "5:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 108,
           "id:3": 650,
           "sizeY:3": 24
         },
-        "6:10": {
+        "4:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 72,
           "y:3": 36,
           "id:3": 765,
           "sizeY:3": 24
         },
-        "7:10": {
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 0,
+          "id:3": 766,
+          "sizeY:3": 24
+        },
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 0,
-          "id:3": 766,
+          "id:3": 767,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 36,
+          "id:3": 768,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 0,
-          "id:3": 767,
+          "y:3": 144,
+          "id:3": 769,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 36,
-          "id:3": 768,
+          "x:3": 36,
+          "y:3": 180,
+          "id:3": 771,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 108,
-          "id:3": 769,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 144,
-          "id:3": 771,
-          "sizeY:3": 24
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 180,
+          "x:3": 72,
+          "y:3": 216,
           "id:3": 772,
           "sizeY:3": 24
         },
-        "13:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 36,
           "id:3": 774,
           "sizeY:3": 24
         },
-        "14:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 36,
           "id:3": 775,
           "sizeY:3": 24
         },
-        "15:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 0,
           "id:3": 776,
           "sizeY:3": 24
         },
-        "16:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 348,
           "y:3": 36,
           "id:3": 777,
           "sizeY:3": 24
         },
-        "17:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 72,
           "id:3": 778,
           "sizeY:3": 24
         },
-        "18:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 0,
           "id:3": 779,
           "sizeY:3": 24
         },
-        "19:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 0,
           "id:3": 780,
           "sizeY:3": 24
         },
-        "20:10": {
+        "18:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 36,
+          "x:3": 144,
+          "y:3": 0,
           "id:3": 781,
           "sizeY:3": 24
         },
-        "21:10": {
+        "19:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 108,
           "y:3": 36,
           "id:3": 782,
           "sizeY:3": 24
         },
-        "22:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 72,
           "id:3": 783,
           "sizeY:3": 24
         },
-        "23:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 144,
           "id:3": 784,
           "sizeY:3": 24
         },
-        "24:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 108,
           "id:3": 785,
           "sizeY:3": 24
         },
-        "25:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 144,
           "id:3": 788,
           "sizeY:3": 24
         },
-        "26:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 144,
+          "y:3": 108,
           "id:3": 790,
           "sizeY:3": 24
         },
-        "27:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 108,
           "id:3": 791,
           "sizeY:3": 24
         },
-        "28:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 72,
           "id:3": 792,
           "sizeY:3": 24
         },
-        "29:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 108,
           "id:3": 793,
           "sizeY:3": 24
         },
-        "30:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 144,
           "id:3": 794,
           "sizeY:3": 24
         },
-        "31:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 144,
           "id:3": 795,
           "sizeY:3": 24
         },
-        "32:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 180,
           "id:3": 796,
           "sizeY:3": 24
         },
-        "33:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 144,
           "id:3": 797,
           "sizeY:3": 24
         },
-        "34:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 348,
           "y:3": 216,
           "id:3": 798,
           "sizeY:3": 24
         },
-        "35:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 216,
           "id:3": 799,
           "sizeY:3": 24
         },
-        "36:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 72,
           "id:3": 802,
           "sizeY:3": 24
         },
-        "37:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 72,
           "id:3": 803,
           "sizeY:3": 24
         },
-        "38:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 108,
           "id:3": 804,
           "sizeY:3": 24
         },
-        "39:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 144,
           "id:3": 805,
           "sizeY:3": 24
         },
-        "40:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 180,
           "id:3": 806,
           "sizeY:3": 24
         },
-        "41:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 180,
+          "y:3": 144,
           "id:3": 807,
           "sizeY:3": 24
         },
-        "42:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 180,
           "id:3": 808,
           "sizeY:3": 24
         },
-        "43:10": {
+        "41:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 72,
+          "x:3": 36,
+          "y:3": 108,
           "id:3": 809,
           "sizeY:3": 24
         },
-        "44:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 144,
           "id:3": 810,
           "sizeY:3": 24
         },
-        "45:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 180,
           "id:3": 811,
           "sizeY:3": 24
         },
-        "46:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 180,
           "id:3": 812,
           "sizeY:3": 24
         },
-        "47:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 216,
           "id:3": 813,
           "sizeY:3": 24
         },
-        "48:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 216,
@@ -123498,22 +124592,22 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 264,
+          "x:3": 84,
+          "y:3": 192,
           "id:3": 121,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 504,
+          "x:3": 264,
           "y:3": 0,
           "id:3": 128,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 144,
+          "x:3": 36,
+          "y:3": 48,
           "id:3": 148,
           "sizeY:3": 24
         },
@@ -123526,309 +124620,260 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 180,
+          "x:3": 36,
+          "y:3": 84,
           "id:3": 616,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 144,
+          "x:3": 48,
+          "y:3": 0,
           "id:3": 617,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 108,
+          "x:3": 84,
+          "y:3": 48,
           "id:3": 677,
           "sizeY:3": 24
         },
         "10:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 252,
-          "id:3": 850,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 252,
-          "id:3": 851,
-          "sizeY:3": 24
-        },
-        "12:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 0,
           "id:3": 853,
           "sizeY:3": 24
         },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 120,
+          "id:3": 857,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 84,
+          "id:3": 858,
+          "sizeY:3": 24
+        },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 84,
-          "y:3": 288,
-          "id:3": 854,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 859,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 288,
-          "id:3": 855,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 861,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 288,
-          "id:3": 856,
-          "sizeY:3": 24
-        },
-        "16:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 180,
-          "id:3": 857,
-          "sizeY:3": 24
-        },
-        "17:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 72,
-          "id:3": 858,
-          "sizeY:3": 24
-        },
-        "18:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 108,
-          "id:3": 859,
-          "sizeY:3": 24
-        },
-        "19:10": {
-          "sizeX:3": 24,
-          "x:3": 504,
-          "y:3": 288,
-          "id:3": 860,
-          "sizeY:3": 24
-        },
-        "20:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 72,
-          "id:3": 861,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": 480,
-          "y:3": 84,
+          "x:3": 300,
+          "y:3": 0,
           "id:3": 862,
           "sizeY:3": 24
         },
-        "22:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 36,
           "id:3": 863,
           "sizeY:3": 24
         },
-        "23:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 264,
           "y:3": 108,
           "id:3": 864,
           "sizeY:3": 24
         },
-        "24:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 108,
           "id:3": 865,
           "sizeY:3": 24
         },
-        "25:10": {
+        "19:10": {
           "sizeX:3": 48,
           "x:3": 204,
           "y:3": 24,
           "id:3": 866,
           "sizeY:3": 48
         },
-        "26:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 312,
           "y:3": 108,
           "id:3": 950,
           "sizeY:3": 24
         },
-        "27:10": {
+        "21:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 144,
+          "x:3": 348,
+          "y:3": 108,
           "id:3": 951,
           "sizeY:3": 24
         },
-        "28:10": {
+        "22:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 144,
+          "x:3": 408,
+          "y:3": 108,
           "id:3": 952,
           "sizeY:3": 24
         },
-        "29:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 264,
           "y:3": 144,
           "id:3": 953,
           "sizeY:3": 24
         },
-        "30:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 144,
           "id:3": 954,
           "sizeY:3": 24
         },
-        "31:10": {
+        "25:10": {
           "sizeX:3": 48,
-          "x:3": 300,
-          "y:3": 180,
+          "x:3": 312,
+          "y:3": 144,
           "id:3": 955,
           "sizeY:3": 48
         },
-        "32:10": {
+        "26:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 252,
+          "x:3": 324,
+          "y:3": 216,
           "id:3": 956,
           "sizeY:3": 24
         },
-        "33:10": {
+        "27:10": {
           "sizeX:3": 24,
-          "x:3": 444,
-          "y:3": 252,
+          "x:3": 372,
+          "y:3": 180,
           "id:3": 957,
           "sizeY:3": 24
         },
-        "34:10": {
+        "28:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 192,
+          "x:3": 264,
+          "y:3": 228,
           "id:3": 958,
           "sizeY:3": 24
         },
-        "35:10": {
+        "29:10": {
           "sizeX:3": 24,
-          "x:3": 264,
-          "y:3": 192,
+          "x:3": 372,
+          "y:3": 144,
           "id:3": 959,
           "sizeY:3": 24
         },
-        "36:10": {
+        "30:10": {
           "sizeX:3": 48,
-          "x:3": 432,
-          "y:3": 192,
+          "x:3": 420,
+          "y:3": 204,
           "id:3": 961,
           "sizeY:3": 48
         },
-        "37:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 0,
           "id:3": 962,
           "sizeY:3": 24
         },
-        "38:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 0,
           "id:3": 963,
           "sizeY:3": 24
         },
-        "39:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 408,
-          "y:3": 156,
+          "y:3": 144,
           "id:3": 965,
           "sizeY:3": 24
         },
-        "40:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 444,
-          "y:3": 156,
+          "y:3": 144,
           "id:3": 971,
           "sizeY:3": 24
         },
-        "41:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 264,
-          "y:3": 252,
+          "y:3": 180,
           "id:3": 993,
           "sizeY:3": 24
         },
-        "42:10": {
+        "36:10": {
           "sizeX:3": 48,
-          "x:3": 408,
-          "y:3": 96,
+          "x:3": 372,
+          "y:3": 36,
           "id:3": 1014,
           "sizeY:3": 48
         },
-        "43:10": {
+        "37:10": {
           "sizeX:3": 48,
           "x:3": 204,
           "y:3": 180,
           "id:3": 1057,
           "sizeY:3": 48
         },
-        "44:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 168,
-          "y:3": 192,
+          "y:3": 216,
           "id:3": 1058,
           "sizeY:3": 24
         },
-        "45:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 144,
           "id:3": 1059,
           "sizeY:3": 24
         },
-        "46:10": {
+        "40:10": {
           "sizeX:3": 48,
           "x:3": 300,
-          "y:3": 48,
+          "y:3": 36,
           "id:3": 1060,
           "sizeY:3": 48
         },
-        "47:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 264,
-          "y:3": 60,
+          "y:3": 48,
           "id:3": 1061,
           "sizeY:3": 24
         },
-        "48:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 216,
-          "id:3": 1233,
-          "sizeY:3": 24
-        },
-        "49:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 480,
-          "y:3": 120,
+          "y:3": 144,
           "id:3": 1234,
           "sizeY:3": 24
         },
-        "50:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 480,
-          "y:3": 156,
+          "y:3": 216,
           "id:3": 1235,
           "sizeY:3": 24
         }
