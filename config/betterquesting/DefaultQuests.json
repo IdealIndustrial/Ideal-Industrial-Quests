@@ -72613,7 +72613,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "A base of all ULV machines. You make to create from it a cheapest input/output hatches/busses for your multiblock machines. But note that them will have the lowest capacity."
+          "desc:8": "A base of all ULV machines. You may to create from it a cheapest input/output hatches/busses for your multiblock machines. But note that them will have the lowest capacity."
         }
       },
       "tasks:9": {
