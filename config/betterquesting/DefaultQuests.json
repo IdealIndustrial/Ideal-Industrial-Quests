@@ -12618,7 +12618,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "For a first you have to craft one of: Iron or Bronze piackaxe head. Then use wooden stick to make a second level pickaxe. It may dig most gregtech ores (but not all). Later you may craft a 3 level pickaxe from §9cobalt §for §bdiamonds§f."
+          "desc:8": "For a first you have to craft one of: Iron or Bronze pickaxe head. Then use wooden stick to make a second level pickaxe. It may dig most gregtech ores (but not all). Later you may craft a 3 level pickaxe from §9cobalt §for §bdiamonds§f."
         }
       },
       "tasks:9": {
@@ -27528,7 +27528,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "partySingleReward:1": 0,
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
@@ -27563,6 +27563,23 @@
               "id:8": "gregtech:gt.blockmachines",
               "Count:3": 1,
               "Damage:2": 106,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.blockmachines",
+              "Count:3": 1,
+              "Damage:2": 107,
               "OreDict:8": ""
             }
           },
@@ -27623,7 +27640,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Height for search: 5-20 DIAMOND vein (Graphite, Diamond, Coal). There are three ways to get diamonds: first two are real for you in case if you found a vein of diamonds. You may dig diamond blocks with help of cobalt pickaxe or you may blow it by powder barrel or boiler. The last one is simple but with low chance to use it in real game. You may find a diamond just by broking small diamond ore."
+          "desc:8": "Height for search: 5-20 DIAMOND vein (Graphite, Diamond, Coal). There are three ways to get diamonds: first two are real for you in case if you found a vein of diamonds. You may dig diamond blocks with help of cobalt pickaxe or you may blow it by powder barrel or boiler. The last one is simple but with low chance to use it in real game. You may find a diamond just by breaking small diamond ore."
         }
       },
       "tasks:9": {
@@ -27836,7 +27853,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Kill 3 Crippers"
+          "desc:8": "Kill 3 Creepers"
         }
       },
       "tasks:9": {
@@ -27997,7 +28014,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Craft powder barrel from gunpowder"
+          "desc:8": "You have to craft a powder barrel from a gunpowder. A powder barrel is a danger version of TNT. In case if you put it in any place, you will not be able to pickup it then. It will blow if you try to broke it. A one of useful ways to use it is to blow a diamond ore if you do not have a 3-d level pickaxe. Note, that the chance to save an ore in the explosion is only 30%. So it is a fast and easy way to dig a strong ore, but with very low efficienty."
         }
       },
       "tasks:9": {
@@ -30670,7 +30687,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Dig gravel to find flint. It may drop with a litle chance. But if you want to spent you time, you may use few ather ways: 1) craft it from 4 gravel blocks. 2) If you are enough luky to find a sheep and get the wool - you may craft the useful tool - scoop (to sift the gravel)."
+          "desc:8": "Dig a gravel to find a flint. It may drop out with a litle chance. But if you do not want to spend your time, you may use few other ways: 1) craft it from 4 gravel blocks. 2) If you are enough lucky to find a sheep and get the wool - you may craft the useful tool - scoop (to sift a gravel)."
         }
       },
       "tasks:9": {
@@ -59071,9 +59088,9 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0,
-          "choices:9": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
             "0:10": {
               "id:8": "lootbags:lootbag",
               "Count:3": 1,
@@ -68863,11 +68880,11 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "OR",
-          "name:8": "Slimebal or Sticky Resin",
+          "name:8": "Slimeball or Sticky Resin",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Prepare one of: Slimebal or Sticky Resin"
+          "desc:8": "Prepare one of: Slimeball or Sticky Resin"
         }
       },
       "tasks:9": {
@@ -72596,7 +72613,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "A base of all ULV machines"
+          "desc:8": "A base of all ULV machines. You make to create from it a cheapest input/output hatches/busses for your multiblock machines. But note that them will have the lowest capacity."
         }
       },
       "tasks:9": {
@@ -76363,9 +76380,9 @@
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0,
-          "choices:9": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
             "0:10": {
               "id:8": "lootbags:lootbag",
               "Count:3": 1,
@@ -85194,7 +85211,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Note, that to mark a quest (that require to get a fluid or a gas) as completed, you have to put a bit of required fluid (or gas) to one of: Universal cell or Certus quartz tank. In case if you choose a certus quartz tank (with required gas or fluid inside it) you have to dismount it by wrench to place it to your inventory. Only these two items may help you to detect your fluids or gases to finish quests that require to get fluid (or a gas)."
+          "desc:8": "Note, that to complete a quest (that require to get a fluid or a gas) as completed, you have to pour a bit of required fluid (or gas) to one of: \"Universal cell\" or \"Certus quartz tank\". In case if you choose a way to copmlete a quest with help of certus quartz tank (with required gas or fluid inside it) you have to dismount it by wrench (from buildcraft mod) to place it to your inventory. Only these two items (Universal cell or Certus quartz tank) may help you to mark a fluid or a gas as detected for the quest system."
         }
       },
       "tasks:9": {
@@ -112466,7 +112483,7 @@
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "name:8": "Tungstate or Scheelite Dust",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
