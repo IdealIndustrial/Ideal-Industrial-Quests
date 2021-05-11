@@ -9410,7 +9410,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "partySingleReward:1": 0,
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
@@ -113027,7 +113027,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use a compressor to make an blick of olivine"
+          "desc:8": "Use a compressor to make a block of olivine"
         }
       },
       "tasks:9": {
