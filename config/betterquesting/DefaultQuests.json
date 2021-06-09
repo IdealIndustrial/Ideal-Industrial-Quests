@@ -2269,7 +2269,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Use the Fusion Reactor at least 2 tier to make from molten titanium and duranium the tritanium."
+          "desc:8": "You have to prepare and build a blast furnace with kanthal coil blocks and with HV energy hatch (or better) to smelt titanium ingots."
         }
       },
       "tasks:9": {
@@ -11049,7 +11049,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Diamond Plate.",
+          "name:8": "Diamond Plate",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -11263,7 +11263,7 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "HSS-H Screw",
+          "name:8": "HSS-G Screw",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
@@ -17196,7 +17196,8 @@
       "preRequisites:11": [
         233,
         244,
-        245
+        245,
+        737
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -24595,12 +24596,6 @@
               "id:8": "gregtech:gt.metaitem.03",
               "Count:3": 1,
               "Damage:2": 32031,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.metaitem.03",
-              "Count:3": 1,
-              "Damage:2": 32034,
               "OreDict:8": ""
             }
           },
@@ -39219,7 +39214,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "partySingleReward:1": 0,
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
@@ -70991,7 +70986,7 @@
             "0:10": {
               "id:8": "lootbags:lootbag",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -108289,7 +108284,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It is a small but useful multiblock, that will allow you to pump out a water from rivers without deleting water blocks while it works. Also it may work in ocean to get a salt water from it. It require a steam as a fuel to work."
+          "desc:8": "It is a small but useful multiblock, that will allow you to pump out a water from rivers without deleting water blocks while it works. Also it may work in ocean to get a salt water from it. It require a ULV (or better) energy hatch."
         }
       },
       "tasks:9": {
@@ -109551,46 +109546,15 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Fluid Conduit LV Recipe",
+          "name:8": "Fluid Conduit (LV Recipe)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Like a pipe with pump"
+          "desc:8": "A way to get ability to craft a fluid conduit on LV tier."
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "EnderIO:itemLiquidConduit",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "lootbags:lootbag",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "tasks:9": {},
+      "rewards:9": {}
     },
     "1690:10": {
       "questID:3": 1690,
@@ -109618,46 +109582,15 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Fluid Conduit MV Recipe",
+          "name:8": "Fluid Conduit (MV Recipe)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Like a pipe with pump"
+          "desc:8": "A way to get ability to craft a fluid conduit on MV tier."
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "EnderIO:itemLiquidConduit",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "lootbags:lootbag",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "tasks:9": {},
+      "rewards:9": {}
     },
     "1691:10": {
       "questID:3": 1691,
@@ -110050,7 +109983,9 @@
     "1696:10": {
       "questID:3": 1696,
       "preRequisites:11": [
-        737
+        1204,
+        394,
+        1754
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -110061,20 +109996,20 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.blockmachines",
+            "id:8": "JABBA:upgradeCore",
             "Count:3": 1,
-            "Damage:2": 372,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "Advanced Electrolyzer",
+          "name:8": "Storage upgrade (1)",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "It will give you a lot of new ways to get an aluminium dust. For example from Bauxite dust, clay dust and few other dusts."
+          "desc:8": "A storage upgrade to up a limit for a Barrel. Note, that you will be able to apply it only after applying structure upgrade."
         }
       },
       "tasks:9": {
@@ -110087,9 +110022,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "gregtech:gt.blockmachines",
+              "id:8": "JABBA:upgradeCore",
               "Count:3": 1,
-              "Damage:2": 372,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -110102,9 +110037,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "lootbags:lootbag",
+              "id:8": "JABBA:barrel",
               "Count:3": 1,
-              "Damage:2": 12,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
@@ -112886,11 +112821,11 @@
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "New Quest",
+          "name:8": "Exquisite Olivine",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "No Description"
+          "desc:8": "You may use a sifting machine to get it from purified olivine ore."
         }
       },
       "tasks:9": {
@@ -112942,7 +112877,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": ""
+          "desc:8": "An any tier lathe may help you to get an olivine lens from an exquisite olivine gem."
         }
       },
       "tasks:9": {},
@@ -113092,7 +113027,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": ""
+          "desc:8": "Now, when you have HV lathe and a plate of olivine, you may craft an olivine lens."
         }
       },
       "tasks:9": {},
@@ -113253,6 +113188,1063 @@
               "id:8": "lootbags:lootbag",
               "Count:3": 1,
               "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1749:10": {
+      "questID:3": 1749,
+      "preRequisites:11": [
+        394,
+        1696
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeCore",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Storage upgrade (3)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A storage upgrade to up a limit for a Barrel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1750:10": {
+      "questID:3": 1750,
+      "preRequisites:11": [
+        394,
+        1749
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeCore",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Storage upgrade (9)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A storage upgrade to up a limit for a Barrel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1751:10": {
+      "questID:3": 1751,
+      "preRequisites:11": [
+        394,
+        1750
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeCore",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Storage upgrade (27)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A storage upgrade to up a limit for a Barrel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1752:10": {
+      "questID:3": 1752,
+      "preRequisites:11": [
+        394,
+        1751
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeCore",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Storage upgrade (81)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A storage upgrade to up a limit for a Barrel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1753:10": {
+      "questID:3": 1753,
+      "preRequisites:11": [
+        394,
+        1752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeCore",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Storage upgrade (243)",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "A storage upgrade to up a limit for a Barrel."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeCore",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1754:10": {
+      "questID:3": 1754,
+      "preRequisites:11": [
+        164,
+        1204
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK I",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1755:10": {
+      "questID:3": 1755,
+      "preRequisites:11": [
+        164,
+        1754,
+        1093
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK II",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1756:10": {
+      "questID:3": 1756,
+      "preRequisites:11": [
+        164,
+        1755,
+        295
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK III",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1757:10": {
+      "questID:3": 1757,
+      "preRequisites:11": [
+        164,
+        1756,
+        757
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK IV",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1758:10": {
+      "questID:3": 1758,
+      "preRequisites:11": [
+        164,
+        1757,
+        1652
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK V",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1759:10": {
+      "questID:3": 1759,
+      "preRequisites:11": [
+        164,
+        1758,
+        373,
+        1208
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK VI",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1760:10": {
+      "questID:3": 1760,
+      "preRequisites:11": [
+        164,
+        1759,
+        156
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK VII",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1761:10": {
+      "questID:3": 1761,
+      "preRequisites:11": [
+        164,
+        1760,
+        244
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK VIII",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1762:10": {
+      "questID:3": 1762,
+      "preRequisites:11": [
+        164,
+        1761,
+        31
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK IX",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1763:10": {
+      "questID:3": 1763,
+      "preRequisites:11": [
+        164,
+        1762,
+        116
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK X",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1764:10": {
+      "questID:3": 1764,
+      "preRequisites:11": [
+        164,
+        1763,
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "JABBA:upgradeStructural",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "Structural MK XI",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "An upgrade for a Barrel to add space for other upgrades."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "JABBA:upgradeStructural",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -114042,7 +115034,7 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 288,
           "y:3": 72,
           "id:3": 711,
           "sizeY:3": 24
@@ -114056,21 +115048,21 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 144,
+          "x:3": -36,
+          "y:3": 0,
           "id:3": 790,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 252,
           "y:3": 72,
           "id:3": 841,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 252,
           "y:3": 36,
           "id:3": 846,
           "sizeY:3": 24
@@ -114091,7 +115083,7 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 288,
           "y:3": 108,
           "id:3": 1010,
           "sizeY:3": 24
@@ -114105,7 +115097,7 @@
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 288,
           "y:3": 36,
           "id:3": 1142,
           "sizeY:3": 24
@@ -114147,7 +115139,7 @@
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 252,
           "y:3": 0,
           "id:3": 1150,
           "sizeY:3": 24
@@ -114168,28 +115160,28 @@
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 144,
+          "x:3": -36,
+          "y:3": 36,
           "id:3": 1154,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 144,
+          "x:3": -36,
+          "y:3": 72,
           "id:3": 1155,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 144,
+          "x:3": -36,
+          "y:3": 108,
           "id:3": 1156,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 288,
           "y:3": 0,
           "id:3": 1158,
           "sizeY:3": 24
@@ -114203,8 +115195,8 @@
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 144,
+          "x:3": 216,
+          "y:3": 0,
           "id:3": 1204,
           "sizeY:3": 24
         },
@@ -114217,9 +115209,128 @@
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 252,
           "y:3": 108,
           "id:3": 1238,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 36,
+          "id:3": 1696,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 72,
+          "id:3": 1749,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 108,
+          "id:3": 1750,
+          "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 144,
+          "id:3": 1751,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 144,
+          "id:3": 1752,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
+          "y:3": 144,
+          "id:3": 1753,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 0,
+          "id:3": 1754,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 36,
+          "id:3": 1755,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 72,
+          "id:3": 1756,
+          "sizeY:3": 24
+        },
+        "42:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 108,
+          "id:3": 1757,
+          "sizeY:3": 24
+        },
+        "43:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 144,
+          "id:3": 1758,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 144,
+          "id:3": 1759,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 144,
+          "id:3": 1760,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 144,
+          "id:3": 1761,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 144,
+          "id:3": 1762,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 1763,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 144,
+          "id:3": 1764,
           "sizeY:3": 24
         }
       },
@@ -119215,386 +120326,386 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 72,
+          "x:3": 216,
+          "y:3": 144,
           "id:3": 88,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 288,
           "y:3": 108,
           "id:3": 149,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 60,
-          "x:3": 288,
-          "y:3": 36,
-          "id:3": 245,
+          "x:3": 108,
+          "y:3": 0,
+          "id:3": 243,
           "sizeY:3": 60
         },
         "3:10": {
-          "sizeX:3": 24,
+          "sizeX:3": 60,
           "x:3": 180,
-          "y:3": 72,
-          "id:3": 270,
-          "sizeY:3": 24
+          "y:3": 0,
+          "id:3": 245,
+          "sizeY:3": 60
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 180,
-          "id:3": 325,
+          "x:3": 144,
+          "y:3": 144,
+          "id:3": 270,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
-          "id:3": 351,
+          "x:3": 36,
+          "y:3": 108,
+          "id:3": 325,
           "sizeY:3": 24
         },
         "6:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 72,
+          "id:3": 351,
+          "sizeY:3": 24
+        },
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 180,
           "id:3": 413,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 180,
           "id:3": 437,
           "sizeY:3": 24
         },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 144,
-          "id:3": 481,
-          "sizeY:3": 24
-        },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 108,
-          "id:3": 482,
+          "x:3": 108,
+          "y:3": 216,
+          "id:3": 481,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 72,
-          "id:3": 483,
+          "x:3": 108,
+          "y:3": 180,
+          "id:3": 482,
           "sizeY:3": 24
         },
         "11:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 144,
+          "id:3": 483,
+          "sizeY:3": 24
+        },
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 36,
           "id:3": 484,
           "sizeY:3": 24
         },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 36,
-          "id:3": 485,
-          "sizeY:3": 24
-        },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 72,
-          "id:3": 486,
+          "x:3": 108,
+          "y:3": 108,
+          "id:3": 485,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 180,
           "y:3": 144,
-          "id:3": 488,
+          "id:3": 486,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 0,
-          "id:3": 489,
+          "x:3": 324,
+          "y:3": 72,
+          "id:3": 488,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 36,
-          "id:3": 490,
+          "x:3": 108,
+          "y:3": 72,
+          "id:3": 489,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 36,
-          "id:3": 491,
+          "x:3": 180,
+          "y:3": 108,
+          "id:3": 490,
           "sizeY:3": 24
         },
         "18:10": {
+          "sizeX:3": 24,
+          "x:3": 216,
+          "y:3": 72,
+          "id:3": 491,
+          "sizeY:3": 24
+        },
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 144,
           "id:3": 492,
           "sizeY:3": 24
         },
-        "19:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 144,
-          "id:3": 493,
-          "sizeY:3": 24
-        },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 144,
-          "id:3": 496,
+          "x:3": 144,
+          "y:3": 216,
+          "id:3": 493,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 144,
-          "id:3": 497,
+          "x:3": 216,
+          "y:3": 216,
+          "id:3": 496,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
           "x:3": 180,
-          "y:3": 108,
-          "id:3": 498,
+          "y:3": 216,
+          "id:3": 497,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 108,
-          "id:3": 499,
+          "x:3": 144,
+          "y:3": 180,
+          "id:3": 498,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 180,
           "y:3": 180,
-          "id:3": 500,
+          "id:3": 499,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
           "x:3": 252,
-          "y:3": 0,
-          "id:3": 501,
+          "y:3": 216,
+          "id:3": 500,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 144,
-          "id:3": 502,
+          "x:3": 216,
+          "y:3": 108,
+          "id:3": 501,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 0,
-          "id:3": 503,
+          "x:3": 216,
+          "y:3": 180,
+          "id:3": 502,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
-          "id:3": 504,
+          "x:3": 288,
+          "y:3": 36,
+          "id:3": 503,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 252,
           "y:3": 144,
-          "id:3": 507,
+          "id:3": 504,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
           "x:3": 288,
-          "y:3": 108,
-          "id:3": 508,
+          "y:3": 144,
+          "id:3": 507,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 180,
-          "id:3": 509,
+          "x:3": 324,
+          "y:3": 144,
+          "id:3": 508,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 324,
+          "y:3": 108,
+          "id:3": 509,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": 288,
           "y:3": 72,
           "id:3": 520,
           "sizeY:3": 24
         },
-        "33:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 108,
           "id:3": 545,
           "sizeY:3": 24
         },
-        "34:10": {
+        "35:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 180,
+          "x:3": 36,
+          "y:3": 216,
           "id:3": 558,
           "sizeY:3": 24
         },
-        "35:10": {
+        "36:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 180,
+          "x:3": 72,
+          "y:3": 216,
           "id:3": 692,
           "sizeY:3": 24
         },
-        "36:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 180,
           "id:3": 723,
           "sizeY:3": 24
         },
-        "37:10": {
+        "38:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 0,
+          "x:3": 36,
+          "y:3": 72,
           "id:3": 734,
           "sizeY:3": 24
         },
-        "38:10": {
+        "39:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 36,
+          "x:3": 72,
+          "y:3": 72,
           "id:3": 737,
           "sizeY:3": 24
         },
-        "39:10": {
+        "40:10": {
           "sizeX:3": 60,
           "x:3": 36,
-          "y:3": 72,
+          "y:3": 0,
           "id:3": 753,
           "sizeY:3": 60
         },
-        "40:10": {
-          "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 144,
-          "id:3": 757,
-          "sizeY:3": 24
-        },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 36,
-          "id:3": 973,
+          "x:3": 0,
+          "y:3": 216,
+          "id:3": 757,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 108,
-          "id:3": 1022,
+          "x:3": 252,
+          "y:3": 36,
+          "id:3": 973,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 72,
-          "id:3": 1026,
+          "x:3": 72,
+          "y:3": 144,
+          "id:3": 1022,
           "sizeY:3": 24
         },
         "44:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 108,
+          "id:3": 1026,
+          "sizeY:3": 24
+        },
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 72,
           "id:3": 1159,
           "sizeY:3": 24
         },
-        "45:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 144,
           "id:3": 1160,
           "sizeY:3": 24
         },
-        "46:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 180,
           "id:3": 1161,
           "sizeY:3": 24
         },
-        "47:10": {
+        "48:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 72,
           "y:3": 180,
           "id:3": 1197,
           "sizeY:3": 24
         },
-        "48:10": {
-          "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 144,
-          "id:3": 1214,
-          "sizeY:3": 24
-        },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 36,
-          "id:3": 1239,
+          "x:3": 288,
+          "y:3": 180,
+          "id:3": 1214,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 0,
-          "id:3": 1240,
+          "x:3": 144,
+          "y:3": 108,
+          "id:3": 1239,
           "sizeY:3": 24
         },
         "51:10": {
           "sizeX:3": 24,
           "x:3": 180,
-          "y:3": 0,
-          "id:3": 1241,
+          "y:3": 72,
+          "id:3": 1240,
           "sizeY:3": 24
         },
         "52:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 144,
+          "y:3": 72,
+          "id:3": 1241,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
           "y:3": 108,
           "id:3": 1692,
           "sizeY:3": 24
         },
-        "53:10": {
-          "sizeX:3": 60,
-          "x:3": 36,
-          "y:3": 0,
-          "id:3": 1696,
-          "sizeY:3": 60
-        },
         "54:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 108,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 1699,
           "sizeY:3": 24
         }
@@ -120821,243 +121932,236 @@
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 36,
-          "id:3": 243,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
           "x:3": 72,
           "y:3": 72,
           "id:3": 246,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 108,
           "id:3": 247,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 108,
           "id:3": 248,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 144,
           "id:3": 249,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 108,
           "id:3": 250,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 180,
           "id:3": 251,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 60,
           "x:3": 72,
           "y:3": 144,
           "id:3": 252,
           "sizeY:3": 60
         },
-        "28:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 0,
+          "y:3": 36,
           "id:3": 253,
           "sizeY:3": 24
         },
-        "29:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 36,
           "id:3": 255,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 108,
           "id:3": 257,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 72,
           "id:3": 258,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 144,
           "id:3": 275,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 108,
           "id:3": 278,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 0,
           "id:3": 282,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 144,
           "id:3": 357,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 180,
           "id:3": 418,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 396,
           "y:3": 72,
           "id:3": 494,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 72,
           "id:3": 495,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 36,
           "id:3": 732,
           "sizeY:3": 24
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 180,
           "id:3": 833,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 180,
           "id:3": 834,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 144,
           "id:3": 930,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 0,
           "id:3": 1021,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 0,
           "id:3": 1048,
           "sizeY:3": 24
         },
-        "45:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 144,
           "id:3": 1119,
           "sizeY:3": 24
         },
-        "46:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 36,
           "id:3": 1162,
           "sizeY:3": 24
         },
-        "47:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 72,
           "id:3": 1196,
           "sizeY:3": 24
         },
-        "48:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 180,
           "id:3": 1212,
           "sizeY:3": 24
         },
-        "49:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 180,
           "id:3": 1213,
           "sizeY:3": 24
         },
-        "50:10": {
+        "49:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 144,
           "id:3": 1215,
           "sizeY:3": 24
         },
-        "51:10": {
+        "50:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 108,
           "id:3": 1675,
           "sizeY:3": 24
         },
-        "52:10": {
+        "51:10": {
           "sizeX:3": 24,
           "x:3": 396,
           "y:3": 108,
           "id:3": 1676,
           "sizeY:3": 24
         },
-        "53:10": {
+        "52:10": {
           "sizeX:3": 24,
           "x:3": 396,
           "y:3": 36,
           "id:3": 1679,
           "sizeY:3": 24
         },
-        "54:10": {
+        "53:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 72,
@@ -122074,8 +123178,8 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 144,
+          "x:3": 144,
+          "y:3": 108,
           "id:3": 68,
           "sizeY:3": 24
         },
@@ -122123,7 +123227,7 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 72,
           "y:3": 0,
           "id:3": 339,
           "sizeY:3": 24
@@ -122137,14 +123241,14 @@
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 72,
+          "x:3": 36,
+          "y:3": 36,
           "id:3": 356,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 72,
           "y:3": 72,
           "id:3": 367,
           "sizeY:3": 24
@@ -122200,7 +123304,7 @@
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 180,
           "y:3": 144,
           "id:3": 822,
           "sizeY:3": 24
@@ -122277,8 +123381,8 @@
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 36,
+          "x:3": 36,
+          "y:3": 72,
           "id:3": 838,
           "sizeY:3": 24
         },
@@ -122291,14 +123395,14 @@
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 0,
+          "x:3": 108,
+          "y:3": 36,
           "id:3": 840,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 72,
           "y:3": 36,
           "id:3": 847,
           "sizeY:3": 24
@@ -122306,28 +123410,28 @@
         "37:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 144,
+          "y:3": 108,
           "id:3": 1064,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 108,
+          "y:3": 72,
           "id:3": 1067,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 72,
+          "y:3": 36,
           "id:3": 1068,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
           "x:3": 144,
-          "y:3": 108,
+          "y:3": 144,
           "id:3": 1069,
           "sizeY:3": 24
         },
