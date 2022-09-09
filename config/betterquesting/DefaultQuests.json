@@ -15399,9 +15399,7 @@
     },
     "217:10": {
       "questID:3": 217,
-      "preRequisites:11": [
-        323
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
@@ -22534,7 +22532,8 @@
       "questID:3": 317,
       "preRequisites:11": [
         322,
-        1023
+        1023,
+        320
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22630,7 +22629,7 @@
       "preRequisites:11": [
         322,
         320,
-        323
+        1833
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22981,7 +22980,7 @@
     "323:10": {
       "questID:3": 323,
       "preRequisites:11": [
-        314
+        1691
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22992,62 +22991,37 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "gregtech:gt.blockores",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
-            "Damage:2": 907,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "bq.quest.salt_ores.name",
+          "name:8": "bq.quest.bat_pack_for.name",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "bq.quest.salt_ores.desc"
+          "desc:8": "bq.quest.bat_pack_for.desc"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 2,
-              "Damage:2": 2006,
-              "OreDict:8": "dustLithium"
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 2,
-              "Damage:2": 2017,
-              "OreDict:8": "dustSodium"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         }
       },
       "rewards:9": {
         "0:10": {
-          "rewardID:8": "bq_standard:choice",
+          "rewardID:8": "bq_standard:item",
           "index:3": 0,
-          "choices:9": {
+          "rewards:9": {
             "0:10": {
-              "id:8": "gregtech:gt.blockores",
-              "Count:3": 2,
-              "Damage:2": 1907,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:gt.blockores",
-              "Count:3": 4,
-              "Damage:2": 1817,
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
               "OreDict:8": ""
             }
           }
@@ -27504,7 +27478,6 @@
       "questID:3": 390,
       "preRequisites:11": [
         477,
-        323,
         723
       ],
       "properties:10": {
@@ -27909,11 +27882,87 @@
         "0:10": {
           "ignoreNBT:1": 1,
           "index:3": 0,
-          "targetNBT:10": {},
+          "targetNBT:10": {
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "4:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "DropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085,
+              "4:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "Creeper",
+            "HealF:5": 20.0,
+            "Fuse:2": 30,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -1526677736730080214,
+            "Health:2": 20,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 0,
+            "ignited:1": 0,
+            "Rotation:9": {
+              "0:5": 0.65674675,
+              "1:5": 0.0
+            },
+            "UUIDMost:4": 13702177322200,
+            "Equipment:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {},
+              "4:10": {}
+            },
+            "CustomName:8": "",
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": 0,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0,
+            "AttackTime:2": 0,
+            "ExplosionRadius:1": 3,
+            "CustomNameVisible:1": 0
+          },
           "damageType:8": "",
-          "required:3": 0,
+          "required:3": 3,
           "taskID:8": "bq_standard:hunt",
-          "target:8": "",
+          "target:8": "Creeper",
           "subtypes:1": 0
         }
       },
@@ -35458,7 +35507,8 @@
     "500:10": {
       "questID:3": 500,
       "preRequisites:11": [
-        496
+        496,
+        1832
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -36415,9 +36465,7 @@
     },
     "513:10": {
       "questID:3": 513,
-      "preRequisites:11": [
-        323
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
@@ -37193,9 +37241,7 @@
     },
     "525:10": {
       "questID:3": 525,
-      "preRequisites:11": [
-        323
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
@@ -39019,9 +39065,7 @@
     },
     "552:10": {
       "questID:3": 552,
-      "preRequisites:11": [
-        323
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
@@ -60159,9 +60203,8 @@
     "854:10": {
       "questID:3": 854,
       "preRequisites:11": [
-        848,
-        1765,
-        211
+        1698,
+        1834
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -60180,7 +60223,7 @@
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
-          "questLogic:8": "AND",
+          "questLogic:8": "OR",
           "name:8": "bq.quest.tungsten_ingot.name",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
@@ -62566,7 +62609,8 @@
       "questID:3": 887,
       "preRequisites:11": [
         915,
-        928
+        928,
+        367
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -71750,9 +71794,7 @@
     },
     "1023:10": {
       "questID:3": 1023,
-      "preRequisites:11": [
-        323
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
@@ -84904,8 +84946,8 @@
       "questID:3": 1229,
       "preRequisites:11": [
         759,
-        380,
-        1078
+        1078,
+        1732
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -109749,8 +109791,7 @@
     "1693:10": {
       "questID:3": 1693,
       "preRequisites:11": [
-        843,
-        323
+        843
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -109815,7 +109856,8 @@
       "questID:3": 1694,
       "preRequisites:11": [
         1693,
-        1691
+        1691,
+        323
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -110129,9 +110171,9 @@
     "1698:10": {
       "questID:3": 1698,
       "preRequisites:11": [
-        800,
-        284,
-        223
+        848,
+        1765,
+        211
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -110144,35 +110186,22 @@
           "icon:10": {
             "id:8": "gregtech:gt.metaitem.01",
             "Count:3": 1,
-            "Damage:2": 32750,
+            "Damage:2": 2081,
             "OreDict:8": ""
           },
           "snd_update:8": "random.levelup",
           "repeatTime:3": -1,
           "globalShare:1": 0,
           "questLogic:8": "AND",
-          "name:8": "bq.quest.solar_panel_technology.name",
+          "name:8": "bq.quest.tungsten_standard_recipe.name",
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "bq.quest.solar_panel_technology.desc"
+          "desc:8": "bq.quest.tungsten_standard_recipe.desc"
         }
       },
       "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "lootbags:lootbag",
-              "Count:3": 1,
-              "Damage:2": 5,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "1699:10": {
       "questID:3": 1699,
@@ -118702,6 +118731,337 @@
           }
         }
       }
+    },
+    "1830:10": {
+      "questID:3": 1830,
+      "preRequisites:11": [
+        1831
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 23880,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "bq.quest.rubber_rod.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "bq.quest.rubber_rod.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 23880,
+              "OreDict:8": "stickRubber"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1831:10": {
+      "questID:3": 1831,
+      "preRequisites:11": [
+        477,
+        478,
+        476
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 11880,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "bq.quest.rubber_ingot.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "bq.quest.rubber_ingot.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 11880,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1832:10": {
+      "questID:3": 1832,
+      "preRequisites:11": [
+        1830,
+        186,
+        1021,
+        483
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 32017,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "bq.quest.water_proof.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "bq.quest.water_proof.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 1,
+              "Damage:2": 32017,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lootbags:lootbag",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1833:10": {
+      "questID:3": 1833,
+      "preRequisites:11": [
+        314
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metaitem.01",
+            "Count:3": 1,
+            "Damage:2": 2017,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "bq.quest.sodium_dust.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "bq.quest.sodium_dust.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.metaitem.01",
+              "Count:3": 2,
+              "Damage:2": 2017,
+              "OreDict:8": "dustSodium"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.blockores",
+              "Count:3": 2,
+              "Damage:2": 1907,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.blockores",
+              "Count:3": 4,
+              "Damage:2": 1817,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1834:10": {
+      "questID:3": 1834,
+      "preRequisites:11": [
+        178
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "partySingleReward:1": 0,
+          "visibility:8": "ALWAYS",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:end_stone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "stoneEndstone"
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "name:8": "bq.quest.end_stone.name",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "bq.quest.end_stone.desc"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:end_stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "stoneEndstone"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:end_stone",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -123826,357 +124186,371 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 36,
+          "x:3": 372,
+          "y:3": -60,
           "id:3": 74,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 60,
-          "x:3": 288,
+          "x:3": 444,
           "y:3": 36,
           "id:3": 155,
           "sizeY:3": 60
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 144,
+          "x:3": 552,
+          "y:3": 108,
           "id:3": 283,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 108,
+          "x:3": 516,
+          "y:3": 36,
           "id:3": 289,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 144,
+          "x:3": 552,
+          "y:3": 36,
           "id:3": 291,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 180,
+          "x:3": 588,
+          "y:3": 108,
           "id:3": 292,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 36,
+          "x:3": 480,
+          "y:3": 0,
           "id:3": 293,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 72,
+          "x:3": 516,
+          "y:3": 0,
           "id:3": 294,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 72,
+          "x:3": 516,
+          "y:3": -36,
           "id:3": 295,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 180,
+          "x:3": 588,
+          "y:3": 72,
           "id:3": 319,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 72,
+          "x:3": 204,
+          "y:3": -60,
           "id:3": 327,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 144,
+          "x:3": 276,
+          "y:3": 168,
           "id:3": 391,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 180,
+          "x:3": 300,
+          "y:3": 108,
           "id:3": 392,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 108,
+          "x:3": 204,
+          "y:3": 168,
           "id:3": 393,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 180,
+          "x:3": 444,
+          "y:3": 108,
           "id:3": 395,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 180,
+          "x:3": 480,
+          "y:3": 108,
           "id:3": 397,
           "sizeY:3": 24
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 36,
-          "id:3": 450,
+          "x:3": 624,
+          "y:3": -60,
+          "id:3": 399,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 0,
-          "id:3": 451,
+          "x:3": 252,
+          "y:3": -36,
+          "id:3": 450,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 0,
-          "id:3": 452,
+          "x:3": 288,
+          "y:3": -36,
+          "id:3": 451,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 144,
-          "id:3": 453,
+          "x:3": 288,
+          "y:3": 0,
+          "id:3": 452,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 144,
-          "id:3": 454,
+          "x:3": 228,
+          "y:3": 108,
+          "id:3": 453,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 336,
           "y:3": 108,
-          "id:3": 455,
+          "id:3": 454,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 108,
-          "id:3": 456,
+          "x:3": 300,
+          "y:3": 72,
+          "id:3": 455,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 0,
-          "id:3": 457,
+          "x:3": 516,
+          "y:3": 108,
+          "id:3": 456,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 408,
           "y:3": 36,
-          "id:3": 458,
+          "id:3": 457,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 144,
-          "id:3": 459,
+          "x:3": 372,
+          "y:3": 36,
+          "id:3": 458,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 36,
-          "id:3": 460,
+          "x:3": 480,
+          "y:3": 144,
+          "id:3": 459,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 36,
-          "id:3": 461,
+          "x:3": 324,
+          "y:3": -36,
+          "id:3": 460,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 72,
-          "id:3": 462,
+          "x:3": 228,
+          "y:3": 36,
+          "id:3": 461,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 0,
-          "id:3": 470,
+          "x:3": 300,
+          "y:3": 36,
+          "id:3": 462,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 36,
-          "id:3": 751,
+          "x:3": 252,
+          "y:3": 0,
+          "id:3": 470,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 36,
-          "id:3": 994,
+          "x:3": 552,
+          "y:3": -36,
+          "id:3": 751,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 108,
-          "id:3": 1034,
+          "x:3": 480,
+          "y:3": -36,
+          "id:3": 994,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 144,
-          "id:3": 1035,
+          "x:3": 624,
+          "y:3": 168,
+          "id:3": 1025,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 432,
-          "y:3": 72,
-          "id:3": 1036,
+          "x:3": 588,
+          "y:3": 0,
+          "id:3": 1034,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 108,
-          "id:3": 1037,
+          "x:3": 588,
+          "y:3": 36,
+          "id:3": 1035,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 0,
-          "id:3": 1092,
+          "x:3": 588,
+          "y:3": -36,
+          "id:3": 1036,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 108,
-          "id:3": 1163,
+          "x:3": 552,
+          "y:3": 0,
+          "id:3": 1037,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 180,
-          "id:3": 1181,
+          "x:3": 408,
+          "y:3": 0,
+          "id:3": 1092,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 144,
-          "id:3": 1182,
+          "x:3": 264,
+          "y:3": 108,
+          "id:3": 1163,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 108,
-          "id:3": 1183,
+          "x:3": 444,
+          "y:3": 144,
+          "id:3": 1181,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 408,
           "y:3": 108,
-          "id:3": 1184,
+          "id:3": 1182,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 408,
           "y:3": 72,
-          "id:3": 1185,
+          "id:3": 1183,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 72,
-          "id:3": 1186,
+          "x:3": 372,
+          "y:3": 108,
+          "id:3": 1184,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 144,
-          "id:3": 1187,
+          "x:3": 336,
+          "y:3": 72,
+          "id:3": 1185,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 144,
-          "id:3": 1191,
+          "x:3": 372,
+          "y:3": 72,
+          "id:3": 1186,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 0,
-          "id:3": 1193,
+          "x:3": 408,
+          "y:3": 144,
+          "id:3": 1187,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 108,
-          "id:3": 1205,
+          "x:3": 552,
+          "y:3": 72,
+          "id:3": 1191,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 0,
-          "id:3": 1652,
+          "x:3": 444,
+          "y:3": -36,
+          "id:3": 1193,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 180,
-          "y:3": 180,
-          "id:3": 1697,
+          "x:3": 516,
+          "y:3": 72,
+          "id:3": 1205,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 444,
+          "y:3": 0,
+          "id:3": 1652,
+          "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": 336,
+          "y:3": 144,
+          "id:3": 1697,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
           "y:3": 72,
           "id:3": 1711,
           "sizeY:3": 24
@@ -124204,7 +124578,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 168,
           "y:3": 216,
           "id:3": 256,
           "sizeY:3": 24
@@ -124281,264 +124655,250 @@
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": 216,
-          "id:3": 399,
-          "sizeY:3": 24
-        },
-        "12:10": {
-          "sizeX:3": 24,
           "x:3": 204,
           "y:3": 216,
           "id:3": 400,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 468,
           "y:3": 168,
           "id:3": 401,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 48,
           "x:3": 432,
           "y:3": 60,
           "id:3": 403,
           "sizeY:3": 48
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": 420,
           "y:3": 132,
           "id:3": 404,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 468,
           "y:3": 132,
           "id:3": 405,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 276,
           "y:3": 252,
           "id:3": 406,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 444,
           "y:3": 204,
           "id:3": 409,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 372,
           "y:3": 180,
           "id:3": 410,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 444,
           "y:3": 252,
           "id:3": 411,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 336,
           "y:3": 180,
           "id:3": 412,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 300,
           "y:3": 144,
           "id:3": 414,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 240,
           "y:3": 144,
           "id:3": 415,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 276,
           "y:3": 72,
           "id:3": 416,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 144,
           "id:3": 417,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 108,
           "id:3": 419,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 180,
           "id:3": 420,
           "sizeY:3": 24
         },
-        "28:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 180,
           "id:3": 422,
           "sizeY:3": 24
         },
-        "29:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": 504,
           "y:3": 132,
           "id:3": 423,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": 504,
           "y:3": 96,
           "id:3": 424,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 504,
           "y:3": 168,
           "id:3": 426,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 180,
+          "x:3": 132,
+          "y:3": 216,
           "id:3": 428,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 252,
           "id:3": 429,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 240,
           "y:3": 72,
           "id:3": 430,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 300,
           "y:3": 108,
           "id:3": 731,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 336,
           "y:3": 144,
           "id:3": 949,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 252,
           "id:3": 976,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 336,
           "y:3": 108,
           "id:3": 995,
           "sizeY:3": 24
         },
-        "39:10": {
-          "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 216,
-          "id:3": 1025,
-          "sizeY:3": 24
-        },
-        "40:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 72,
           "id:3": 1188,
           "sizeY:3": 24
         },
-        "41:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 72,
           "id:3": 1189,
           "sizeY:3": 24
         },
-        "42:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 108,
           "id:3": 1190,
           "sizeY:3": 24
         },
-        "43:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 48,
           "id:3": 1653,
           "sizeY:3": 24
         },
-        "44:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 48,
           "id:3": 1654,
           "sizeY:3": 24
         },
-        "45:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 312,
           "y:3": 48,
           "id:3": 1661,
           "sizeY:3": 24
         },
-        "46:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 72,
           "id:3": 1662,
           "sizeY:3": 24
         },
-        "47:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 240,
           "y:3": 108,
           "id:3": 1748,
           "sizeY:3": 24
         },
-        "48:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 504,
           "y:3": 60,
@@ -124568,105 +124928,105 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 348,
+          "x:3": 384,
           "y:3": 144,
           "id:3": 86,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 240,
           "y:3": 72,
           "id:3": 114,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 168,
           "y:3": 144,
           "id:3": 186,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 108,
+          "x:3": 24,
+          "y:3": 84,
           "id:3": 217,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 168,
           "y:3": 72,
           "id:3": 226,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 180,
+          "x:3": 24,
+          "y:3": 156,
           "id:3": 235,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 60,
-          "x:3": 168,
+          "x:3": 204,
           "y:3": 108,
           "id:3": 244,
           "sizeY:3": 60
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 348,
           "y:3": 144,
           "id:3": 267,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 348,
-          "y:3": 108,
+          "x:3": 384,
+          "y:3": 72,
           "id:3": 298,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 384,
+          "x:3": 420,
           "y:3": 144,
           "id:3": 299,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 72,
+          "x:3": 348,
+          "y:3": 60,
           "id:3": 300,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 348,
           "y:3": 108,
           "id:3": 301,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 360,
           "y:3": 216,
           "id:3": 302,
           "sizeY:3": 24
         },
         "13:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 312,
           "y:3": 72,
           "id:3": 303,
           "sizeY:3": 24
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 384,
+          "x:3": 420,
           "y:3": 180,
           "id:3": 304,
           "sizeY:3": 24
@@ -124680,57 +125040,57 @@
         },
         "16:10": {
           "sizeX:3": 24,
-          "x:3": 204,
+          "x:3": 240,
           "y:3": 12,
           "id:3": 308,
           "sizeY:3": 24
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 276,
           "y:3": 108,
           "id:3": 309,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 204,
           "y:3": 72,
           "id:3": 312,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 168,
           "y:3": 108,
           "id:3": 313,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 108,
+          "x:3": 60,
+          "y:3": 84,
           "id:3": 314,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 276,
           "y:3": 36,
           "id:3": 315,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 168,
           "y:3": 36,
           "id:3": 316,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 72,
+          "x:3": 132,
+          "y:3": 84,
           "id:3": 317,
           "sizeY:3": 24
         },
@@ -124750,170 +125110,177 @@
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 132,
           "y:3": 36,
           "id:3": 321,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 36,
           "id:3": 322,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 72,
-          "id:3": 323,
+          "x:3": 312,
+          "y:3": 144,
+          "id:3": 473,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 144,
-          "id:3": 473,
+          "x:3": 240,
+          "y:3": 180,
+          "id:3": 474,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
           "x:3": 204,
-          "y:3": 180,
-          "id:3": 474,
-          "sizeY:3": 24
-        },
-        "31:10": {
-          "sizeX:3": 24,
-          "x:3": 168,
           "y:3": 216,
           "id:3": 475,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 204,
           "y:3": 180,
           "id:3": 476,
           "sizeY:3": 24
         },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 144,
+          "id:3": 477,
+          "sizeY:3": 24
+        },
         "33:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 108,
-          "id:3": 477,
+          "x:3": 168,
+          "y:3": 192,
+          "id:3": 478,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 96,
           "y:3": 180,
-          "id:3": 478,
+          "id:3": 479,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 144,
-          "id:3": 479,
+          "x:3": 132,
+          "y:3": 192,
+          "id:3": 480,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 180,
-          "id:3": 480,
-          "sizeY:3": 24
-        },
-        "37:10": {
-          "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 312,
           "y:3": 180,
           "id:3": 487,
           "sizeY:3": 24
         },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 120,
+          "id:3": 547,
+          "sizeY:3": 24
+        },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 144,
-          "id:3": 547,
+          "x:3": 384,
+          "y:3": 108,
+          "id:3": 723,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 312,
-          "y:3": 36,
+          "x:3": 348,
+          "y:3": 24,
           "id:3": 738,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 144,
+          "x:3": 24,
+          "y:3": 120,
           "id:3": 966,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 276,
+          "x:3": 312,
           "y:3": 108,
           "id:3": 977,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 276,
           "y:3": 144,
           "id:3": 978,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 72,
+          "x:3": 96,
+          "y:3": 84,
           "id:3": 1023,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 240,
+          "x:3": 276,
           "y:3": 180,
           "id:3": 1051,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 384,
-          "y:3": 72,
+          "x:3": 420,
+          "y:3": 24,
           "id:3": 1084,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 204,
           "y:3": 36,
           "id:3": 1141,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 384,
+          "x:3": 420,
           "y:3": 216,
           "id:3": 1194,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": 276,
-          "y:3": 36,
+          "x:3": 312,
+          "y:3": 24,
           "id:3": 1195,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": 312,
+          "x:3": 348,
           "y:3": 180,
           "id:3": 1709,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 48,
+          "id:3": 1833,
           "sizeY:3": 24
         }
       },
@@ -124946,8 +125313,8 @@
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 180,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 149,
           "sizeY:3": 24
         },
@@ -124974,8 +125341,8 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 108,
+          "x:3": 252,
+          "y:3": 216,
           "id:3": 325,
           "sizeY:3": 24
         },
@@ -124995,22 +125362,22 @@
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 180,
+          "x:3": 0,
+          "y:3": 108,
           "id:3": 437,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 216,
+          "x:3": 36,
+          "y:3": 144,
           "id:3": 481,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 108,
-          "y:3": 180,
+          "x:3": 72,
+          "y:3": 144,
           "id:3": 482,
           "sizeY:3": 24
         },
@@ -125023,8 +125390,8 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 36,
+          "x:3": 324,
+          "y:3": 108,
           "id:3": 484,
           "sizeY:3": 24
         },
@@ -125044,7 +125411,7 @@
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 288,
           "y:3": 72,
           "id:3": 488,
           "sizeY:3": 24
@@ -125072,21 +125439,21 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 144,
+          "x:3": 288,
+          "y:3": 180,
           "id:3": 492,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 144,
-          "y:3": 216,
+          "x:3": 216,
+          "y:3": 180,
           "id:3": 493,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 144,
           "y:3": 216,
           "id:3": 496,
           "sizeY:3": 24
@@ -125114,7 +125481,7 @@
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 108,
           "y:3": 216,
           "id:3": 500,
           "sizeY:3": 24
@@ -125129,7 +125496,7 @@
         "27:10": {
           "sizeX:3": 24,
           "x:3": 216,
-          "y:3": 180,
+          "y:3": 216,
           "id:3": 502,
           "sizeY:3": 24
         },
@@ -125150,49 +125517,49 @@
         "30:10": {
           "sizeX:3": 24,
           "x:3": 288,
-          "y:3": 144,
+          "y:3": 0,
           "id:3": 507,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 144,
+          "x:3": 252,
+          "y:3": 0,
           "id:3": 508,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 108,
+          "x:3": 288,
+          "y:3": 36,
           "id:3": 509,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
           "x:3": 324,
-          "y:3": 180,
+          "y:3": 0,
           "id:3": 520,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 108,
+          "x:3": 288,
+          "y:3": 144,
           "id:3": 545,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 216,
+          "x:3": 0,
+          "y:3": 144,
           "id:3": 558,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 216,
+          "x:3": 0,
+          "y:3": 180,
           "id:3": 692,
           "sizeY:3": 24
         },
@@ -125220,7 +125587,7 @@
         "40:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 216,
+          "y:3": 72,
           "id:3": 757,
           "sizeY:3": 24
         },
@@ -125234,41 +125601,41 @@
         "42:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": 144,
+          "y:3": 108,
           "id:3": 1022,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 108,
           "id:3": 1026,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 72,
+          "x:3": 324,
+          "y:3": 144,
           "id:3": 1159,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 144,
+          "x:3": 324,
+          "y:3": 180,
           "id:3": 1160,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 180,
+          "x:3": 288,
+          "y:3": 216,
           "id:3": 1161,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 180,
           "id:3": 1197,
           "sizeY:3": 24
@@ -125296,16 +125663,37 @@
         },
         "51:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 216,
+          "x:3": 324,
+          "y:3": 72,
           "id:3": 1692,
           "sizeY:3": 24
         },
         "52:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 72,
+          "x:3": 252,
+          "y:3": 36,
           "id:3": 1699,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 180,
+          "id:3": 1830,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 216,
+          "id:3": 1831,
+          "sizeY:3": 24
+        },
+        "55:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 180,
+          "id:3": 1832,
           "sizeY:3": 24
         }
       },
@@ -125331,260 +125719,239 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 108,
           "y:3": 36,
           "id:3": 64,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 144,
           "y:3": 72,
           "id:3": 72,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 108,
           "y:3": 0,
           "id:3": 190,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 108,
           "y:3": 72,
           "id:3": 241,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 144,
           "id:3": 373,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 72,
           "id:3": 425,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 0,
           "id:3": 505,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 0,
+          "x:3": 0,
+          "y:3": 36,
           "id:3": 506,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 36,
           "id:3": 749,
           "sizeY:3": 24
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 36,
           "id:3": 750,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 60,
-          "x:3": 288,
+          "x:3": 252,
           "y:3": 0,
           "id:3": 754,
           "sizeY:3": 60
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 288,
           "y:3": 72,
           "id:3": 755,
           "sizeY:3": 24
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 108,
-          "id:3": 843,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 0,
           "y:3": 72,
           "id:3": 917,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 60,
-          "x:3": 216,
+          "x:3": 180,
           "y:3": 36,
           "id:3": 1078,
           "sizeY:3": 60
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
-          "x:3": 180,
+          "x:3": 144,
           "y:3": 36,
           "id:3": 1079,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 0,
           "id:3": 1080,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 216,
           "y:3": 0,
           "id:3": 1081,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 0,
+          "id:3": 1082,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 0,
-          "id:3": 1082,
+          "id:3": 1083,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 0,
-          "id:3": 1083,
+          "x:3": 252,
+          "y:3": 72,
+          "id:3": 1105,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
           "x:3": 288,
-          "y:3": 72,
-          "id:3": 1105,
-          "sizeY:3": 24
-        },
-        "21:10": {
-          "sizeX:3": 24,
-          "x:3": 324,
           "y:3": 108,
           "id:3": 1106,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 252,
           "y:3": 108,
           "id:3": 1107,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 72,
           "y:3": 108,
           "id:3": 1132,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 60,
-          "x:3": 144,
+          "x:3": 108,
           "y:3": 108,
           "id:3": 1133,
           "sizeY:3": 60
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 180,
           "y:3": 144,
           "id:3": 1134,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
-          "x:3": 216,
+          "x:3": 180,
           "y:3": 108,
           "id:3": 1135,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
-          "x:3": 72,
+          "x:3": 36,
           "y:3": 144,
           "id:3": 1198,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 1199,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 144,
-          "id:3": 1199,
-          "sizeY:3": 24
-        },
-        "29:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
           "y:3": 108,
           "id:3": 1200,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 252,
           "y:3": 144,
           "id:3": 1663,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 216,
           "y:3": 144,
           "id:3": 1664,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 216,
           "y:3": 108,
           "id:3": 1670,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 36,
+          "y:3": 72,
           "id:3": 1691,
           "sizeY:3": 24
         },
-        "34:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 108,
-          "id:3": 1693,
-          "sizeY:3": 24
-        },
-        "35:10": {
-          "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": 72,
-          "id:3": 1694,
-          "sizeY:3": 24
-        },
-        "36:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 72,
+          "y:3": 108,
           "id:3": 1787,
           "sizeY:3": 24
         }
@@ -125660,14 +126027,14 @@
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 36,
+          "x:3": 252,
+          "y:3": 72,
           "id:3": 326,
           "sizeY:3": 24
         },
         "8:10": {
           "sizeX:3": 24,
-          "x:3": 252,
+          "x:3": 216,
           "y:3": 72,
           "id:3": 380,
           "sizeY:3": 24
@@ -125681,15 +126048,15 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": 396,
-          "y:3": 216,
+          "x:3": 324,
+          "y:3": 180,
           "id:3": 431,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": 288,
-          "y:3": 36,
+          "x:3": 300,
+          "y:3": 24,
           "id:3": 515,
           "sizeY:3": 24
         },
@@ -125780,7 +126147,7 @@
         "24:10": {
           "sizeX:3": 24,
           "x:3": 180,
-          "y:3": 108,
+          "y:3": 120,
           "id:3": 736,
           "sizeY:3": 24
         },
@@ -125827,258 +126194,251 @@
           "sizeY:3": 24
         },
         "31:10": {
-          "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 180,
-          "id:3": 745,
-          "sizeY:3": 24
-        },
-        "32:10": {
           "sizeX:3": 60,
           "x:3": 396,
           "y:3": 108,
           "id:3": 746,
           "sizeY:3": 60
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 108,
           "id:3": 747,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 144,
           "id:3": 748,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": 0,
           "id:3": 752,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 0,
           "id:3": 756,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 180,
           "id:3": 758,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 108,
           "id:3": 759,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 144,
           "id:3": 760,
           "sizeY:3": 24
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 108,
           "id:3": 761,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 108,
           "id:3": 762,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 432,
           "y:3": 180,
           "id:3": 763,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 396,
           "y:3": 180,
           "id:3": 764,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 216,
           "id:3": 852,
           "sizeY:3": 24
         },
-        "45:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 144,
           "id:3": 918,
           "sizeY:3": 24
         },
-        "46:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 216,
           "id:3": 919,
           "sizeY:3": 24
         },
-        "47:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 216,
           "id:3": 920,
           "sizeY:3": 24
         },
-        "48:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 144,
           "id:3": 1120,
           "sizeY:3": 24
         },
-        "49:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 108,
           "id:3": 1121,
           "sizeY:3": 24
         },
-        "50:10": {
+        "49:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 144,
           "id:3": 1153,
           "sizeY:3": 24
         },
-        "51:10": {
+        "50:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 360,
           "y:3": 180,
           "id:3": 1206,
           "sizeY:3": 24
         },
-        "52:10": {
+        "51:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 216,
           "id:3": 1208,
           "sizeY:3": 24
         },
-        "53:10": {
+        "52:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 72,
           "id:3": 1229,
           "sizeY:3": 24
         },
-        "54:10": {
+        "53:10": {
           "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 36,
+          "x:3": 264,
+          "y:3": 24,
           "id:3": 1230,
           "sizeY:3": 24
         },
-        "55:10": {
+        "54:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 36,
+          "x:3": 336,
+          "y:3": 24,
           "id:3": 1708,
           "sizeY:3": 24
         },
-        "56:10": {
+        "55:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 72,
           "id:3": 1712,
           "sizeY:3": 24
         },
-        "57:10": {
+        "56:10": {
           "sizeX:3": 24,
           "x:3": 432,
           "y:3": 0,
           "id:3": 1720,
           "sizeY:3": 24
         },
-        "58:10": {
+        "57:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 0,
           "id:3": 1721,
           "sizeY:3": 24
         },
-        "59:10": {
+        "58:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 180,
           "id:3": 1722,
           "sizeY:3": 24
         },
-        "60:10": {
+        "59:10": {
           "sizeX:3": 24,
-          "x:3": 216,
-          "y:3": 72,
+          "x:3": 228,
+          "y:3": 24,
           "id:3": 1732,
           "sizeY:3": 24
         },
-        "61:10": {
+        "60:10": {
           "sizeX:3": 24,
           "x:3": 432,
           "y:3": 72,
           "id:3": 1766,
           "sizeY:3": 24
         },
-        "62:10": {
+        "61:10": {
           "sizeX:3": 24,
           "x:3": 432,
           "y:3": 36,
           "id:3": 1767,
           "sizeY:3": 24
         },
-        "63:10": {
+        "62:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 72,
           "id:3": 1768,
           "sizeY:3": 24
         },
-        "64:10": {
+        "63:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": 144,
           "id:3": 1770,
           "sizeY:3": 24
         },
-        "65:10": {
+        "64:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": 108,
           "id:3": 1771,
           "sizeY:3": 24
         },
-        "66:10": {
+        "65:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 108,
           "id:3": 1773,
           "sizeY:3": 24
         },
-        "67:10": {
+        "66:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 180,
@@ -126531,23 +126891,23 @@
         },
         "34:10": {
           "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 72,
+          "id:3": 1162,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
           "x:3": 216,
           "y:3": 36,
           "id:3": 1192,
           "sizeY:3": 24
         },
-        "35:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 0,
           "id:3": 1309,
-          "sizeY:3": 24
-        },
-        "36:10": {
-          "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 72,
-          "id:3": 1698,
           "sizeY:3": 24
         },
         "37:10": {
@@ -126644,7 +127004,7 @@
         "0:10": {
           "sizeX:3": 24,
           "x:3": 360,
-          "y:3": 144,
+          "y:3": 108,
           "id:3": 47,
           "sizeY:3": 24
         },
@@ -126671,7 +127031,7 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 360,
+          "x:3": 324,
           "y:3": 180,
           "id:3": 143,
           "sizeY:3": 24
@@ -126685,14 +127045,14 @@
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 288,
+          "x:3": 252,
           "y:3": 36,
           "id:3": 224,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 324,
+          "x:3": 288,
           "y:3": 36,
           "id:3": 225,
           "sizeY:3": 24
@@ -126714,7 +127074,7 @@
         "10:10": {
           "sizeX:3": 24,
           "x:3": 360,
-          "y:3": 108,
+          "y:3": 72,
           "id:3": 230,
           "sizeY:3": 24
         },
@@ -126881,138 +127241,159 @@
         },
         "34:10": {
           "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 144,
+          "id:3": 323,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
           "x:3": 324,
           "y:3": 144,
           "id:3": 357,
           "sizeY:3": 24
         },
-        "35:10": {
+        "36:10": {
           "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 0,
+          "x:3": 324,
+          "y:3": 36,
           "id:3": 495,
           "sizeY:3": 24
         },
-        "36:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 0,
           "id:3": 732,
           "sizeY:3": 24
         },
-        "37:10": {
+        "38:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 0,
           "id:3": 805,
           "sizeY:3": 24
         },
-        "38:10": {
+        "39:10": {
           "sizeX:3": 24,
-          "x:3": 324,
-          "y:3": 180,
+          "x:3": 360,
+          "y:3": 144,
           "id:3": 833,
           "sizeY:3": 24
         },
-        "39:10": {
+        "40:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 180,
           "id:3": 834,
           "sizeY:3": 24
         },
-        "40:10": {
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 36,
+          "id:3": 843,
+          "sizeY:3": 24
+        },
+        "42:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 144,
           "id:3": 930,
           "sizeY:3": 24
         },
-        "41:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 0,
           "id:3": 1048,
           "sizeY:3": 24
         },
-        "42:10": {
+        "44:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 144,
           "id:3": 1119,
           "sizeY:3": 24
         },
-        "43:10": {
-          "sizeX:3": 24,
-          "x:3": 252,
-          "y:3": 36,
-          "id:3": 1162,
-          "sizeY:3": 24
-        },
-        "44:10": {
+        "45:10": {
           "sizeX:3": 24,
           "x:3": 324,
           "y:3": 72,
           "id:3": 1196,
           "sizeY:3": 24
         },
-        "45:10": {
+        "46:10": {
           "sizeX:3": 24,
           "x:3": 216,
           "y:3": 180,
           "id:3": 1212,
           "sizeY:3": 24
         },
-        "46:10": {
+        "47:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 180,
           "id:3": 1213,
           "sizeY:3": 24
         },
-        "47:10": {
+        "48:10": {
           "sizeX:3": 24,
           "x:3": 288,
           "y:3": 144,
           "id:3": 1215,
           "sizeY:3": 24
         },
-        "48:10": {
-          "sizeX:3": 24,
-          "x:3": 360,
-          "y:3": 72,
-          "id:3": 1675,
-          "sizeY:3": 24
-        },
         "49:10": {
           "sizeX:3": 24,
           "x:3": 360,
           "y:3": 36,
-          "id:3": 1676,
+          "id:3": 1675,
           "sizeY:3": 24
         },
         "50:10": {
+          "sizeX:3": 24,
+          "x:3": 360,
+          "y:3": 0,
+          "id:3": 1676,
+          "sizeY:3": 24
+        },
+        "51:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 180,
           "id:3": 1679,
           "sizeY:3": 24
         },
-        "51:10": {
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 72,
+          "id:3": 1693,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 108,
+          "id:3": 1694,
+          "sizeY:3": 24
+        },
+        "54:10": {
           "sizeX:3": 24,
           "x:3": 108,
           "y:3": 72,
           "id:3": 1695,
           "sizeY:3": 24
         },
-        "52:10": {
+        "55:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 36,
           "id:3": 1781,
           "sizeY:3": 24
         },
-        "53:10": {
+        "56:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 0,
@@ -129745,7 +130126,7 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 36,
           "y:3": 12,
           "id:3": 6,
           "sizeY:3": 24
@@ -129830,7 +130211,7 @@
         "12:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 156,
+          "y:3": 192,
           "id:3": 851,
           "sizeY:3": 24
         },
@@ -129843,15 +130224,15 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": 36,
           "y:3": 120,
           "id:3": 855,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 192,
+          "x:3": 36,
+          "y:3": 228,
           "id:3": 856,
           "sizeY:3": 24
         },
@@ -130109,135 +130490,149 @@
         },
         "52:10": {
           "sizeX:3": 24,
-          "x:3": 36,
+          "x:3": 0,
           "y:3": 192,
           "id:3": 1233,
           "sizeY:3": 24
         },
         "53:10": {
           "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 84,
+          "id:3": 1698,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
           "x:3": 108,
           "y:3": 84,
           "id:3": 1713,
           "sizeY:3": 24
         },
-        "54:10": {
+        "55:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": 120,
+          "y:3": 156,
           "id:3": 1734,
           "sizeY:3": 24
         },
-        "55:10": {
+        "56:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 156,
           "id:3": 1735,
           "sizeY:3": 24
         },
-        "56:10": {
+        "57:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 48,
           "id:3": 1736,
           "sizeY:3": 24
         },
-        "57:10": {
+        "58:10": {
           "sizeX:3": 24,
           "x:3": 192,
           "y:3": 60,
           "id:3": 1737,
           "sizeY:3": 24
         },
-        "58:10": {
+        "59:10": {
           "sizeX:3": 24,
           "x:3": 192,
           "y:3": 12,
           "id:3": 1738,
           "sizeY:3": 24
         },
-        "59:10": {
+        "60:10": {
           "sizeX:3": 24,
           "x:3": 384,
           "y:3": 132,
           "id:3": 1739,
           "sizeY:3": 24
         },
-        "60:10": {
+        "61:10": {
           "sizeX:3": 24,
           "x:3": 456,
           "y:3": 132,
           "id:3": 1740,
           "sizeY:3": 24
         },
-        "61:10": {
+        "62:10": {
           "sizeX:3": 24,
           "x:3": 420,
           "y:3": 168,
           "id:3": 1741,
           "sizeY:3": 24
         },
-        "62:10": {
+        "63:10": {
           "sizeX:3": 24,
           "x:3": 384,
           "y:3": 168,
           "id:3": 1742,
           "sizeY:3": 24
         },
-        "63:10": {
+        "64:10": {
           "sizeX:3": 24,
           "x:3": 420,
           "y:3": 96,
           "id:3": 1743,
           "sizeY:3": 24
         },
-        "64:10": {
+        "65:10": {
           "sizeX:3": 24,
           "x:3": 456,
           "y:3": 96,
           "id:3": 1744,
           "sizeY:3": 24
         },
-        "65:10": {
+        "66:10": {
           "sizeX:3": 24,
           "x:3": 420,
           "y:3": 132,
           "id:3": 1745,
           "sizeY:3": 24
         },
-        "66:10": {
+        "67:10": {
           "sizeX:3": 24,
           "x:3": 192,
           "y:3": 156,
           "id:3": 1746,
           "sizeY:3": 24
         },
-        "67:10": {
+        "68:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": 192,
           "id:3": 1747,
           "sizeY:3": 24
         },
-        "68:10": {
+        "69:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": 84,
+          "y:3": 120,
           "id:3": 1765,
           "sizeY:3": 24
         },
-        "69:10": {
+        "70:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": 12,
           "id:3": 1785,
           "sizeY:3": 24
         },
-        "70:10": {
+        "71:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": 60,
           "id:3": 1786,
+          "sizeY:3": 24
+        },
+        "72:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 12,
+          "id:3": 1834,
           "sizeY:3": 24
         }
       },
