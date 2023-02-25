@@ -78041,7 +78041,7 @@
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
-          "taskLogic:8": "AND",
+          "taskLogic:8": "OR",
           "partySingleReward:1": 0,
           "visibility:8": "ALWAYS",
           "isMain:1": 0,
@@ -78077,8 +78077,19 @@
               "Count:3": 1,
               "Damage:2": 1625,
               "OreDict:8": ""
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
               "id:8": "gregtech:gt.metaitem.01",
               "Count:3": 1,
               "Damage:2": 2625,
@@ -81038,20 +81049,7 @@
         }
       },
       "tasks:9": {},
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "gregtech:gt.metaitem.01",
-              "Count:3": 1,
-              "Damage:2": 32000,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "1236:10": {
       "questID:3": 1236,
