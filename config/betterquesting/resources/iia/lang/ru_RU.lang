@@ -226,6 +226,13 @@ bq.quest.me_quantum_ring.name=МЭ квантовое кольцо
 bq.quest.4k_me_storage_component.name=4К МЭ компонент хранения
 bq.quest.16k_me_storage_component.name=16К МЭ компонент хранения
 bq.quest.64k_me_storage_component.name=64К МЭ компонент хранения
+bq.quest.nano_circ_way.name=Путь нано микросхемы
+bq.quest.nano_circ_way.desc=Затратный, но стабильный способ получить Сферу Данных
+bq.quest.d_o_gem_way.name=Путь драгоценных камней
+bq.quest.d_o_gem_way.desc=Ранний, но не стабильный способ получить Сферу Данных. Вы можете использовать один из 3 изысканных зеленых драгоценных камней с тритием в автоклаве HV, чтобы получить сферу данных с шансом всего 5%.
+bq.quest.infinity_ores.name=Бесконечные руды
+bq.quest.infinity_ores.desc=Правила добычи руды под коренной породой без ограничений:
+Перед первым запуском ББУ (большая буровая установка) поместите Сферу данных в Люк доступа к данным и не убирайте её. Вы можете изменить уровень ББУ, но не положение контроллера ББУ.
 bq.quest.singularity.name=Сингулярность
 bq.quest.matter_condenser.name=Конденсатор материи
 bq.quest.quantum_entangled_singularity.name=Квантовая запутанная сингулярность
